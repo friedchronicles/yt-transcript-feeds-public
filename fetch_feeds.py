@@ -6,6 +6,7 @@ import html
 import json
 import logging
 import os
+import re
 import subprocess
 import sys
 import time
@@ -200,6 +201,10 @@ def _clean_segments(segments: list[dict]) -> list[dict]:
     prev = None
     for seg in segments:
         text = " ".join((seg.get("text") or "").strip().split())
+        # Remove inline timestamp artifacts like [05:30], 05:30, or 01:05:30.
+        text = re.sub(r"\[\s*\d{1,2}:\d{2}(?::\d{2})?\s*\]", "", text)
+        text = re.sub(r"\b\d{1,2}:\d{2}(?::\d{2})?\b", "", text)
+        text = " ".join(text.split())
         if not text:
             continue
         start = float(seg.get("start", 0.0))
@@ -261,6 +266,22 @@ def format_transcript_html(segments: list[dict], chapters: list[dict]) -> str:
     return "\n".join(html_parts)
 
 
+def with_episode_link(transcript_html: str, video_link: str) -> str:
+    safe_link = html.escape(video_link)
+    top = f"<p><strong>YouTube:</strong> <a href=\"{safe_link}\">{safe_link}</a></p>"
+    return top + "\n" + transcript_html
+
+
+def strip_timestamp_tokens(text: str) -> str:
+    if not text:
+        return text
+    text = re.sub(r"(?m)^\s*\d{1,2}:\d{2}(?::\d{2})?\s*[–-]\s*", "", text)
+    text = re.sub(r"\[\s*\d{1,2}:\d{2}(?::\d{2})?\s*\]", "", text)
+    text = re.sub(r"\b\d{1,2}:\d{2}(?::\d{2})?\b", "", text)
+    text = re.sub(r"[ ]{2,}", " ", text)
+    return text.strip()
+
+
 def generate_feed(channel_name: str, slug: str, videos_with_transcripts: list[dict], output_dir: Path, base_url: str):
     """Generate an RSS XML feed file for a channel."""
     fg = FeedGenerator()
@@ -291,7 +312,7 @@ def generate_feed(channel_name: str, slug: str, videos_with_transcripts: list[di
 
         # Add original description if available
         if video.get("summary"):
-            fe.summary(video["summary"])
+            fe.summary(strip_timestamp_tokens(video["summary"]))
 
     output_path = output_dir / f"{slug}.xml"
     fg.rss_file(str(output_path), pretty=True)
@@ -358,6 +379,7 @@ def process_channel(channel: dict, seen: dict, cleanup_state: dict, settings: di
         else:
             chapters = fetch_video_chapters(video["link"])
             transcript_html = format_transcript_html(segments, chapters)
+            transcript_html = with_episode_link(transcript_html, video["link"])
             entry = {
                 **video,
                 "transcript_html": transcript_html,
@@ -417,7 +439,10 @@ def rebuild_cached_transcripts(data_dir: Path, delay_sec: float = 1.0):
                 entry["chapters_count"] = 0
             else:
                 chapters = fetch_video_chapters(link)
-                entry["transcript_html"] = format_transcript_html(segments, chapters)
+                entry["transcript_html"] = with_episode_link(
+                    format_transcript_html(segments, chapters),
+                    link,
+                )
                 entry["chapters_count"] = len(chapters)
             with open(path, "w") as f:
                 json.dump(entry, f)

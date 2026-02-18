@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Feb 2026 13:16:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Feb 2026 13:24:42 +0000</lastBuildDate>
     <item>
       <title>[NeurIPS Best Paper] 1000 Layer Networks for Self-Supervised RL — Kevin Wang et al, Princeton</title>
       <link>https://www.youtube.com/watch?v=25FsKN0f8gQ</link>
@@ -27,25 +27,26 @@ RL1000 Team (Princeton)
 
 * *1000 Layer Networks for Self-Supervised RL: Scaling Depth Can Enable New Goal-Reaching Capabilities* (https://openreview.net/forum?id=s0JVsx3bx1): https://openreview.net/forum?id=s0JVsx3bx1
 
-00:00:00 Introduction: Best Paper Award and NeurIPS Poster Experience
-00:01:11 Team Introductions and Princeton Research Origins
-00:03:35 The Deep Learning Anomaly: Why RL Stayed Shallow
-00:04:35 Self-Supervised RL: A Different Approach to Scaling
-00:05:13 The Breakthrough Moment: Residual Connections and Critical Depth
-00:07:15 Architectural Choices: Borrowing from ResNets and Avoiding Vanishing Gradients
-00:07:50 Clarifying the Paper: Not Just Big Networks, But Different Objectives
-00:08:46 Blurring the Lines: RL Meets Self-Supervised Learning
-00:09:44 From TD Errors to Classification: Why This Objective Scales
-00:11:06 Architecture Details: Building on Braw and SymbaFowl
-00:12:05 Robotics Applications: Goal-Conditioned RL Without Human Supervision
-00:13:15 Efficiency Trade-offs: Depth vs Width and Parameter Scaling
-00:15:48 JAX and GPU-Accelerated Environments: The Data Infrastructure
-00:18:05 World Models and Next State Classification
-00:22:37 Unlocking Batch Size Scaling Through Network Capacity
-00:24:10 Compute Requirements: State-of-the-Art on a Single GPU
-00:21:02 Future Directions: Distillation, VLMs, and Hierarchical Planning
-00:27:15 Closing Thoughts: Challenging Conventional Wisdom in RL Scaling</description>
-      <content:encoded><![CDATA[<h2>Introduction: Best Paper Award and NeurIPS Poster Experience</h2>
+ Introduction: Best Paper Award and NeurIPS Poster Experience
+ Team Introductions and Princeton Research Origins
+ The Deep Learning Anomaly: Why RL Stayed Shallow
+ Self-Supervised RL: A Different Approach to Scaling
+ The Breakthrough Moment: Residual Connections and Critical Depth
+ Architectural Choices: Borrowing from ResNets and Avoiding Vanishing Gradients
+ Clarifying the Paper: Not Just Big Networks, But Different Objectives
+ Blurring the Lines: RL Meets Self-Supervised Learning
+ From TD Errors to Classification: Why This Objective Scales
+ Architecture Details: Building on Braw and SymbaFowl
+ Robotics Applications: Goal-Conditioned RL Without Human Supervision
+ Efficiency Trade-offs: Depth vs Width and Parameter Scaling
+ JAX and GPU-Accelerated Environments: The Data Infrastructure
+ World Models and Next State Classification
+ Unlocking Batch Size Scaling Through Network Capacity
+ Compute Requirements: State-of-the-Art on a Single GPU
+ Future Directions: Distillation, VLMs, and Hierarchical Planning
+ Closing Thoughts: Challenging Conventional Wisdom in RL Scaling</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=25FsKN0f8gQ">https://www.youtube.com/watch?v=25FsKN0f8gQ</a></p>
+<h2>Introduction: Best Paper Award and NeurIPS Poster Experience</h2>
 <p>[music] Light space to fire up. [music] &gt;&gt; So, welcome to L Space. Uh, we are basically trying to provide the best optimal sort of podcast experience of neurops for people who are not here. Uh, and congrats on your paper. How does it feel? &gt;&gt; Yeah, it was very exciting. Um, &gt;&gt; yeah, &gt;&gt; we had a poster yesterday uh yesterday and then today we&#x27;ll have an oral talk. &gt;&gt; We just like mobbed. Oh yeah, there was a lot of people. It&#x27;s like three hours straight of like you know like waves of</p>
 <p>people to like that were we were trying to but &gt;&gt; so I&#x27;ve never received the best paper. Do you just find out on the website like what uh &gt;&gt; oh I just like woke up one day and like checked my email and then &gt;&gt; ah they just tell they just &gt;&gt; they was like oh like it&#x27;s like I just saw email oh you award like been awarded best paper on &gt;&gt; but maybe you know from the reviews as well right? Yeah, we know from the reviews that we did well. Um, but there&#x27;s a difference between like doing well in the reviews and getting best paper. So, that part we didn&#x27;t actually know. &gt;&gt; Yeah. &gt;&gt; Okay. So, I I I skipped a little bit.</p>
 <p>Uh, maybe we can go sort of um one by one and and sort of introduce um you know, who you are and what you did on on on the team.</p>
@@ -155,25 +156,26 @@ Where to find Latent Space
 * X: https://x.com/latentspacepod
 * Substack: https://www.latent.space/
 
-00:00:00 Introduction: The Origin Story of AlphaXiv
-00:03:12 Beating Hugging Face Papers: What Made AlphaXiv Different
-00:04:17 From Comments to Discovery: Building the Research Feed
-00:04:55 PDF Parsing and OCR: The Technical Infrastructure
-00:06:01 Becoming a Company: Beyond Papers to Research Artifacts
-00:06:37 Benchmarks and State of the Art: Replacing Papers with Code
-00:07:54 Personalization and Search: Building the Best Research Assistant
-00:08:54 Docker Containers and Reproducibility: Making Papers Runnable
-00:10:52 Favorite Papers: Tiny Recursive Models and Evolutionary Strategies
-00:13:15 AI for Science: Agent Laboratory and the Future of Research Automation
-00:18:41 Agent R1 and RL for Long-Horizon Tasks
-00:20:54 Qwen's Year and the Open Source Landscape
-00:22:43 The Crisis in Academic Publishing: AI Slop and Review Quality
-00:25:04 Search and Social Signals: Why Semantic Search Isn't Enough
-00:28:15 The Future of Research: Beyond the PDF
-00:31:17 Implementation Ease as the New Ranking Signal</description>
-      <content:encoded><![CDATA[<h2>Introduction: The Origin Story of AlphaXiv</h2>
+ Introduction: The Origin Story of AlphaXiv
+ Beating Hugging Face Papers: What Made AlphaXiv Different
+ From Comments to Discovery: Building the Research Feed
+ PDF Parsing and OCR: The Technical Infrastructure
+ Becoming a Company: Beyond Papers to Research Artifacts
+ Benchmarks and State of the Art: Replacing Papers with Code
+ Personalization and Search: Building the Best Research Assistant
+ Docker Containers and Reproducibility: Making Papers Runnable
+ Favorite Papers: Tiny Recursive Models and Evolutionary Strategies
+ AI for Science: Agent Laboratory and the Future of Research Automation
+ Agent R1 and RL for Long-Horizon Tasks
+ Qwen's Year and the Open Source Landscape
+ The Crisis in Academic Publishing: AI Slop and Review Quality
+ Search and Social Signals: Why Semantic Search Isn't Enough
+ The Future of Research: Beyond the PDF
+ Implementation Ease as the New Ranking Signal</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=T0mZJjl_dsA">https://www.youtube.com/watch?v=T0mZJjl_dsA</a></p>
+<h2>Introduction: The Origin Story of AlphaXiv</h2>
 <p>[music] Light space up [music] light. &gt;&gt; Hi guys, welcome to Lind Space. Thanks for having us. You guys are the founders of Alphacive, which I&#x27;ve confirmed is the official pronunciation. What&#x27;s uh each of you&#x27;s uh sort of origin story of coming together and starting this? &gt;&gt; Sure. Yeah. So, I&#x27;m Raj. Um I I guess all of us were were at Stanford before. I was roommates with Rayhon actually. um</p>
-<p>and and still am for last like 5 years and I guess um yeah we I would started off doing you know AI research like a lot of others uh at Stanford and um was in Dorsa&#x27;s lab also working with Percy a little bit and was kind of working at the intersection of robotics and NOP and I think um honestly like the the real origin story is one day Rahan and I we were in like our operating systems class it was like really late at like 1:00 a.m. Rahan&#x27;s like, &quot;Hey, do you want to see my like final webdev class project?&quot;</p>
+<p>and and still am for last like 5 years and I guess um yeah we I would started off doing you know AI research like a lot of others uh at Stanford and um was in Dorsa&#x27;s lab also working with Percy a little bit and was kind of working at the intersection of robotics and NOP and I think um honestly like the the real origin story is one day Rahan and I we were in like our operating systems class it was like really late at like a.m. Rahan&#x27;s like, &quot;Hey, do you want to see my like final webdev class project?&quot;</p>
 <p>And I&#x27;m like, &quot;Hey, what makes you think I want to see that right now? We&#x27;re trying to get this like pet in and go home.&quot; And he was like, &quot;No, you should look at it. It&#x27;s pretty cool.&quot; And and I was like, &quot;Okay, sure. Show it.&quot; And it was basically like uh like really jank like view comment button next to like every paragraph of like an archive paper. And the idea is like, &quot;Hey, you could like comment on papers.&quot; And I was like, &quot;Hey, this is like kind of cool. we should like just like work on it. It&#x27;s kind of strange that there aren&#x27;t comments on archive papers given that how how many people are reading and like AI papers is are growing exponentially.</p>
 <p>So, we kind of just like started to work on it for fun. We showed it to like our lab and they&#x27;re like this pretty cool like they&#x27;d use it if it if it takes off. But I think um it really became serious when like it went viral like one of our friends um who was at fair at the time posted about it on LinkedIn went viral and yeah from there we were like we started working with Sebastian who was our adviser um and yeah um it&#x27;s been pretty cool. Yeah, I online. Um, yeah, my name&#x27;s Rahan. I before working on Alpha Kai as an undergrad was doing uh research in robotics and RL. A lot of</p>
 <p>this was still before GPT. So, the thinking with as an undergrad as as as a meager undergrad, your PhD mentor gives you papers and you struggle to understand them. And so, the thinking was that there should be some stack overflow analogy for for archive papers that surely there are other undergrads out here that have these questions. Um and obviously since then it&#x27;s taken many forms but that was kind of the initial initial iteration. I &gt;&gt; mean like Raj and Ron I also did research in undergrad um this sparse deep burning research with Stanford&#x27;s group and I think kind of like what is like we all had this shared experience</p>
@@ -285,17 +287,18 @@ Goodfire Team
 * Paint demo: https://paint.goodfire.ai
 * Careers: https://goodfire.ai/careers
 
-00:00:00 Introduction: GoodFire's Mission and the State of Mechanistic Interpretability
-00:00:56 From Grounding to Interpretability: Jack's PhD Journey
-00:03:04 Paint.GoodFire.ai: Interpretability for Creative Control
-00:05:30 Disentangling Memorization from Reasoning: The Spectrum of Model Capabilities
-00:06:40 Unlearning vs Suppression: The Challenge of Removing Information
-00:08:15 Real-World Deployments: PII Detection and Enterprise Applications
-00:10:20 AI for Science: Genomics, Proteomics, and Novel Biomarker Discovery
-00:11:20 Circuit Tracing and Cross-Layer Transcoders: Anthropic's Contribution
-00:15:44 The Neil Nanda Pivot: Pragmatic Interpretability and Managing by Outcome
-00:18:37 Pasteur's Quadrant: Balancing Discovery and Application at GoodFire</description>
-      <content:encoded><![CDATA[<h2>Introduction: GoodFire&#x27;s Mission and the State of Mechanistic Interpretability</h2>
+ Introduction: GoodFire's Mission and the State of Mechanistic Interpretability
+ From Grounding to Interpretability: Jack's PhD Journey
+ Paint.GoodFire.ai: Interpretability for Creative Control
+ Disentangling Memorization from Reasoning: The Spectrum of Model Capabilities
+ Unlearning vs Suppression: The Challenge of Removing Information
+ Real-World Deployments: PII Detection and Enterprise Applications
+ AI for Science: Genomics, Proteomics, and Novel Biomarker Discovery
+ Circuit Tracing and Cross-Layer Transcoders: Anthropic's Contribution
+ The Neil Nanda Pivot: Pragmatic Interpretability and Managing by Outcome
+ Pasteur's Quadrant: Balancing Discovery and Application at GoodFire</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=CoZp6xaTbWw">https://www.youtube.com/watch?v=CoZp6xaTbWw</a></p>
+<h2>Introduction: GoodFire&#x27;s Mission and the State of Mechanistic Interpretability</h2>
 <p>[music] Light space to fire up. [music] &gt;&gt; Okay, we are here live hive at Europe&#x27;s with two good folks. We want to cover the state of Mechinf basically and you guys are very passionate. Mark, I had you on for AIE before. Welcome back. &gt;&gt; Thank you. &gt;&gt; Uh and Jack, you&#x27;re new but uh also part of Goodfire. Yeah. &gt;&gt; Uh how how would you describe uh what do you guys do and your path into Mecher? Maybe Jack, you want to go first?</p>
 <p>&gt;&gt; So we do interpretability research primarily. Uh we&#x27;re a company focused on like making models interpretable and and robust and safe. And I guess I would describe like the type of work we do as like the science of deep learning which is trying to make models not just black boxes like that we things that we can actually trust and like deploy in in high stakes uh industries. I guess my</p>
 <h2>From Grounding to Interpretability: Jack&#x27;s PhD Journey</h2>
@@ -375,18 +378,19 @@ John Yang
 * SWE-bench: https://www.swebench.com
 * X: https://x.com/jyangballin
 
-00:00:00 Introduction: John Yang on SWE-bench and Code Evaluations
-00:00:31 SWE-bench Origins and Devon's Impact on the Coding Agent Arms Race
-00:01:09 SWE-bench Ecosystem: Verified, Pro, Multimodal, and Multilingual Variants
-00:02:17 Moving Beyond Django: Diversifying Code Evaluation Repositories
-00:03:08 Code Clash: Long-Horizon Development Through Programming Tournaments
-00:04:41 From Halite to Economic Value: Designing Competitive Coding Arenas
-00:06:04 Ofir's Lab: SWE-ficiency, AlgoTune, and SciCode for Scientific Computing
-00:07:52 The Benchmark Landscape: TAU-bench, Terminal-bench, and User Simulation
-00:09:20 The Impossible Task Debate: Refusals, Ambiguity, and Benchmark Integrity
-00:12:32 The Future of Code Evals: Long Autonomy vs Human-AI Collaboration
-00:14:37 Call to Action: User Interaction Data and Codebase Understanding Research</description>
-      <content:encoded><![CDATA[<h2>Introduction: John Yang on SWE-bench and Code Evaluations</h2>
+ Introduction: John Yang on SWE-bench and Code Evaluations
+ SWE-bench Origins and Devon's Impact on the Coding Agent Arms Race
+ SWE-bench Ecosystem: Verified, Pro, Multimodal, and Multilingual Variants
+ Moving Beyond Django: Diversifying Code Evaluation Repositories
+ Code Clash: Long-Horizon Development Through Programming Tournaments
+ From Halite to Economic Value: Designing Competitive Coding Arenas
+ Ofir's Lab: SWE-ficiency, AlgoTune, and SciCode for Scientific Computing
+ The Benchmark Landscape: TAU-bench, Terminal-bench, and User Simulation
+ The Impossible Task Debate: Refusals, Ambiguity, and Benchmark Integrity
+ The Future of Code Evals: Long Autonomy vs Human-AI Collaboration
+ Call to Action: User Interaction Data and Codebase Understanding Research</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=MxB-xRGXxkk">https://www.youtube.com/watch?v=MxB-xRGXxkk</a></p>
+<h2>Introduction: John Yang on SWE-bench and Code Evaluations</h2>
 <p>[music] Light space tornado wake up [music] light. &gt;&gt; We&#x27;re here at Nurips with John Yang of Sweet Bench and many other things. But welcome. &gt;&gt; Thanks so much for having me. Yeah, really happy to be here. &gt;&gt; Uh last year I talked to Oier and uh I think Carlos as well, one of your co-authors. &gt;&gt; How&#x27;s CBS doing? like just just generally the project is like one and a half years olds.</p>
 <h2>SWE-bench Origins and Devon&#x27;s Impact on the Coding Agent Arms Race</h2>
 <p>&gt;&gt; Yeah. Yeah. I think one and a half years old in terms of when it was actually useful and we put it out October 2023 and then people didn&#x27;t really touch it too much and then of course like cognition came on the scene and Devon was an amazing release and I think after that it kind of kicked off the arms race. &gt;&gt; Did they tell you beforehand or they just showed up? &gt;&gt; It was you know I got an email about like two weeks ago. I think it was from I think it was from Walden. He was like, &quot;Hey, you know, we have a good number on it.&quot; I was like, &quot;Wow, congrats.&quot; You know, thanks for using it. And then the release was like mind-blowing. I was</p>
@@ -455,17 +459,18 @@ John Yang
 * Laude Institute: https://www.laude.org/lounge
 * X: https://x.com/andykonwinski
 
-00:00:00 Introduction: Andy Konwinski and the Laud Institute Vision
-00:01:17 The Databricks Motion: From PhD Research to Billion-Dollar Companies
-00:02:15 Laud's Two-Sided Model: Venture Fund and Philanthropic Grants
-00:06:37 Slingshot Program: Funding the Layer Above Foundation Models
-00:07:56 JEPA and DSPy: Evolutionary Prompt Optimization
-00:10:29 Beyond Berkeley and Stanford: Expanding the Research Network
-00:13:22 NSF Complementarity: Not Broken, Just Insufficient
-00:17:03 The Laud Lounge: Creating a VIP Experience at NeurIPS
-00:18:41 Open Frontiers: Reclaiming Leadership in Open AI Research
-00:19:06 The Open Research Crisis: Why</description>
-      <content:encoded><![CDATA[<h2>Introduction: Andy Konwinski and the Laud Institute Vision</h2>
+ Introduction: Andy Konwinski and the Laud Institute Vision
+ The Databricks Motion: From PhD Research to Billion-Dollar Companies
+ Laud's Two-Sided Model: Venture Fund and Philanthropic Grants
+ Slingshot Program: Funding the Layer Above Foundation Models
+ JEPA and DSPy: Evolutionary Prompt Optimization
+ Beyond Berkeley and Stanford: Expanding the Research Network
+ NSF Complementarity: Not Broken, Just Insufficient
+ The Laud Lounge: Creating a VIP Experience at NeurIPS
+ Open Frontiers: Reclaiming Leadership in Open AI Research
+ The Open Research Crisis: Why</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=ZagdY6UJYL4">https://www.youtube.com/watch?v=ZagdY6UJYL4</a></p>
+<h2>Introduction: Andy Konwinski and the Laud Institute Vision</h2>
 <p>[music] Light and space to fire. Wake up. [music] Light. &gt;&gt; We&#x27;re here with Annie Kinsky of Loud Institute. Welcome. &gt;&gt; Yeah. Thank you so much. &gt;&gt; I It&#x27;s weird to welcome to you to your own lawn show. We&#x27;ll talk about that. &gt;&gt; No, I am welcome here. &gt;&gt; Yes, &gt;&gt; everybody that everybody invited is Yes, I&#x27;m here. So your intro is very very long but you&#x27;re a co-founder of data bricks and perplexity and and and now I think um people are less familiar with</p>
 <p>the law institute and what you&#x27;re what you&#x27;re doing it&#x27;s brand new we covered your terminal bench events recently that was a little bit of a coming out party but maybe just for folks who are out of the loop what is the law institute &gt;&gt; oh good question LA itself beyond just law institute is an organization that gives resources to researchers at the exact moment that they need them. So we say right resource, right researcher, right time and there&#x27;s a sort of dotted line in the life cycle of a researcher who makes a company which is when you incorporate. So after that you want to raise venture funding. So law has a</p>
 <p>venture arm that funds researchers and researchy technologists that aren&#x27;t coming from PhDs or or professorships to build companies. And that&#x27;s actually a</p>
@@ -550,22 +555,23 @@ Artificial Analysis
 * George Cameron on X: https://x.com/grmcameron (https://x.com/grmcameron (\grmcameron\" (\)))
 * Micah Hill-Smith on X: https://x.com/_micah_h (https://x.com/_micah_h (\_micah_h\" (\)))
 
-00:00:00 Introduction: Full Circle Moment and Artificial Analysis Origins
-00:01:08 Business Model: Independence and Revenue Streams
-00:04:00 The Origin Story: From Legal AI to Benchmarking
-00:07:00 Early Challenges: Cost, Methodology, and Independence
-00:16:13 AI Grant and Moving to San Francisco
-00:18:58 Evolution of the Intelligence Index: V1 to V3
-00:27:55 New Benchmarks: Hallucination Rate and Omissions Index
-00:33:19 Critical Point and Frontier Physics Problems
-00:35:56 GDPVAL AA: Agentic Evaluation and Stirrup Harness
-00:51:47 The Openness Index: Measuring Model Transparency
-00:57:57 The Smiling Curve: Cost of Intelligence Paradox
-01:04:00 Hardware Efficiency and Sparsity Trends
-01:07:43 Reasoning vs Non-Reasoning: Token Efficiency Matters
-01:10:47 Multimodal Benchmarking and Community Requests
-01:14:50 Looking Ahead: V4 Intelligence Index and Beyond</description>
-      <content:encoded><![CDATA[<h2>Introduction: Full Circle Moment and Artificial Analysis Origins</h2>
+ Introduction: Full Circle Moment and Artificial Analysis Origins
+ Business Model: Independence and Revenue Streams
+ The Origin Story: From Legal AI to Benchmarking
+ Early Challenges: Cost, Methodology, and Independence
+ AI Grant and Moving to San Francisco
+ Evolution of the Intelligence Index: V1 to V3
+ New Benchmarks: Hallucination Rate and Omissions Index
+ Critical Point and Frontier Physics Problems
+ GDPVAL AA: Agentic Evaluation and Stirrup Harness
+ The Openness Index: Measuring Model Transparency
+ The Smiling Curve: Cost of Intelligence Paradox
+ Hardware Efficiency and Sparsity Trends
+ Reasoning vs Non-Reasoning: Token Efficiency Matters
+ Multimodal Benchmarking and Community Requests
+ Looking Ahead: V4 Intelligence Index and Beyond</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=v5mBjeX4TJ8">https://www.youtube.com/watch?v=v5mBjeX4TJ8</a></p>
+<h2>Introduction: Full Circle Moment and Artificial Analysis Origins</h2>
 <p>This is kind of a full circle moment [music] for us in a way. Um cuz &gt;&gt; the like first time artificial analysis got mentioned on a podcast was you and Alysia on Lena Space. &gt;&gt; Amazing. &gt;&gt; Which was January 24. &gt;&gt; I I don&#x27;t even remember doing that, but [laughter] yeah, it was it was very influential to me. Um, yeah, I&#x27;m looking at AI news for Jan 17 or Jan 16, 2024. Uh, I said this gem of a models and host comparison site was just launched. And, uh, and then I put in a few screenshots and I said, um, it&#x27;s an independent</p>
 <p>third party. It clearly outlines the quality versus throughput tradeoff and it breaks out by model and hosting provider. Uh, I did give you for missing fireworks and [laughter] uh, how do you have a model benchmarking thing without fireworks? But you had together, you had Perplexity, and uh I think we just started chatting there. Welcome George and Micah uh to Lyn Space. You I&#x27;ve been following your progress. Congrats on an amazing year. You guys have really come together to be the presumptive new gardener of AI.</p>
 <h2>Business Model: Independence and Revenue Streams</h2>
@@ -763,20 +769,21 @@ Where to find Latent Space
 * X: https://x.com/latentspacepod
 * Substack: https://www.latent.space/
 
-00:00:00 Introduction
-00:01:24 From Mobile Engineer to CTO: The Founder's Path
-00:03:00 Quitters Welcome: Building a Founder-Friendly Culture
-00:05:13 The AI Team Structure: 10-Person Startup Within Brex
-00:11:55 Building the Brex Agent Platform: Multi-Agent Networks
-00:13:45 Tech Stack Decisions: TypeScript, Mastra, and MCP
-00:24:32 Operational AI: Automating Underwriting, KYC, and Fraud
-00:16:40 The Brex Assistant: Executive Assistant for Every Employee
-00:40:26 Evaluation Strategy: From Simple SOPs to Multi-Turn Evals
-00:37:11 Agentic Coding Adoption: Cursor, Windsurf, and the Engineering Interview
-00:58:51 AI Fluency Levels: From User to Native
-01:09:14 The Audit Agent Network: Finance Team Agents in Action
-01:03:33 The Future of Engineering Headcount and AI Leverage</description>
-      <content:encoded><![CDATA[<h2>Introduction</h2>
+ Introduction
+ From Mobile Engineer to CTO: The Founder's Path
+ Quitters Welcome: Building a Founder-Friendly Culture
+ The AI Team Structure: 10-Person Startup Within Brex
+ Building the Brex Agent Platform: Multi-Agent Networks
+ Tech Stack Decisions: TypeScript, Mastra, and MCP
+ Operational AI: Automating Underwriting, KYC, and Fraud
+ The Brex Assistant: Executive Assistant for Every Employee
+ Evaluation Strategy: From Simple SOPs to Multi-Turn Evals
+ Agentic Coding Adoption: Cursor, Windsurf, and the Engineering Interview
+ AI Fluency Levels: From User to Native
+ The Audit Agent Network: Finance Team Agents in Action
+ The Future of Engineering Headcount and AI Leverage</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=BKLvySNVBtM">https://www.youtube.com/watch?v=BKLvySNVBtM</a></p>
+<h2>Introduction</h2>
 <p>We have like three pillars for our AI strategy. We have our corporate AI strategy which [music] is how are we going to adopt uh and like buy AI tooling um across the business and basically every single function to be able to 10x uh our workflows. Then we have our operational AI strategy which is how are we going to buy and build [music] uh solutions that enable us to lower our cost of operations as a financial institution. And then the final pillar is the product AI pillar which is like [music] are we going to introduce new features uh that um enable Preex to [music] be a part of the</p>
 <p>corporate AI pillar of our customers. It&#x27;s like we want to build features and be a solution that somebody else is saying to their board, hey we we adopted Rex and this is part of our corporate AI strategy. Hey everyone, welcome to the living space podcast. This is Allesio, founder of Colonel Labs and I&#x27;m joined by Swixs, editor of Blade in Space. &gt;&gt; Hey, hey, hey. And we&#x27;re here with Jio at Brex. Welcome. &gt;&gt; Hey, thank you for having me. &gt;&gt; Thanks for visiting uh from up in Seattle where uh I I&#x27;ve been a little</p>
 <p>bit. It&#x27;s cold up there, huh? &gt;&gt; Yeah. And we have an atmospheric river hitting the the the city right now. So, a lot of Yeah. Well, yeah, it&#x27;s uh we&#x27;re getting we&#x27;re getting the full-on winter effect right now. &gt;&gt; Well, you&#x27;re you&#x27;re here. We&#x27;re talking about the sort of AI transformation within Brex. There&#x27;s a lot of um interesting tidbits that we&#x27;re going to draw from your article but also your background. You have got a wide array of</p>
@@ -798,7 +805,7 @@ Where to find Latent Space
 <p>I&#x27;ll skip that and go straight to Brexit accelerated to grow 5x and cut burn 99% in the past 18 months. I assume that&#x27;s a mix of internal AI automation and other stuff. &gt;&gt; Um, but we&#x27;re basically I wanted to put some headline numbers up front to impress people before we dig into the details. &gt;&gt; Yeah, absolutely. And you&#x27;re you&#x27;re correct. That&#x27;s the that&#x27;s the team that we have this uh like AI team. You&#x27;re actually what was that? &gt;&gt; Very young team. &gt;&gt; Yeah, it&#x27;s very young. I mean it&#x27;s and it&#x27;s been really interesting the the composition of the team is like very young like AI native like 20-year-olds who basically grew up with the tech um kind of paired off with more like staff</p>
 <p>level software engineers that have been at a little while who can kind of navigate like the existing code bases and like understand uh the product and the customer deeply like we&#x27;ve formed these really uh couple of tight tightnit pods in the AI or where it&#x27;s like three people generally somebody who has like more of a product to customer focused background that like staff engineer who knows uh where the skeletons are and then like a much younger like AI native engineer who um can just do things with uh with agents that like the rest of us uh dinosaurs maybe uh don&#x27;t don&#x27;t uh can&#x27;t either dream of or like or where</p>
 <p>our I think I think part of it is like sometimes the too much experience or too much knowledge of how to solve a problem can actually be an impediment to thinking uh differently about it and thinking about it from like an AI first lens. But yes, we we&#x27;ve been we&#x27;ve been slowly growing that team just in the same way that like a preede startup. You want to be very very careful about talent density and like very deliberate like only hire when you absolutely need it. And so yeah, at this point it&#x27;s just about 10 people and I think it was probably four or five people. Uh I think everybody was actually in the photo that was attached to that tweet uh when Pedro put that out a couple months ago.</p>
-<p>&gt;&gt; Yeah, we&#x27;ll put it up. It&#x27;s a photo at 1:20 a.m. in a on a Friday. &gt;&gt; Yes. Oh, yeah. Yeah. cuz we we always do uh we always do like Friday Friday demos and and like that&#x27;s a time for everybody to get like kind of exec review time and so uh &gt;&gt; everyone&#x27;s in Seattle. &gt;&gt; Um those folks were all in Seattle. Uh but they&#x27;re actually ge geographically distributed. Uh we have a couple folks here, a couple in S. Paulo, a couple in Seattle. &gt;&gt; How addressible we have this like AI center of excellence which are basically the people running these teams across companies. &gt;&gt; Yep. &gt;&gt; How do you make the other engineers not feel like you&#x27;re not special? I think that&#x27;s something that I hear a lot is</p>
+<p>&gt;&gt; Yeah, we&#x27;ll put it up. It&#x27;s a photo at a.m. in a on a Friday. &gt;&gt; Yes. Oh, yeah. Yeah. cuz we we always do uh we always do like Friday Friday demos and and like that&#x27;s a time for everybody to get like kind of exec review time and so uh &gt;&gt; everyone&#x27;s in Seattle. &gt;&gt; Um those folks were all in Seattle. Uh but they&#x27;re actually ge geographically distributed. Uh we have a couple folks here, a couple in S. Paulo, a couple in Seattle. &gt;&gt; How addressible we have this like AI center of excellence which are basically the people running these teams across companies. &gt;&gt; Yep. &gt;&gt; How do you make the other engineers not feel like you&#x27;re not special? I think that&#x27;s something that I hear a lot is</p>
 <p>like, hey, you know, why aren&#x27;t these people working on all the Google LM things and like I&#x27;m stuck working on, you know, the KYC integration with whatever. Yeah. You know what I mean? It&#x27;s like, how do you build that culture? &gt;&gt; You know, it&#x27;s interesting. I I thought that that would be more of a problem, but the benefit of having really optimized our engineering culture around business impact actually causes it to cut in the other direction where where folks some folks don&#x27;t want to work on the AI products because doesn&#x27;t have as much clear direct like business impact right now. Doesn&#x27;t doesn&#x27;t impact revenue as directly. And so I uh I think folks for the most part uh we&#x27;ve we&#x27;ve</p>
 <p>enabled folks who have a strong desire to work on on um AI products to to join that team like somebody somebody transferred out of our expense management organization to come over there because they&#x27;re really passionate about taking like their knowledge of like policy evaluation and and bringing it into the the AI uh uh team. But for the most part, I think everybody understands like how their work uh ladders up and maybe there&#x27;s some like friendly rivalry because like the folks who say work on a card product, they they drive 60% of our direct revenue and so they they&#x27;re pretty happy with that and uh and they don&#x27;t feel like they&#x27;re being left out. Uh and I will also say u</p>
 <p>as you probably saw in this this piece that we we uh put out with uh first round, there is a lot of smaller applications of LLM peppered throughout all of our product and operations teams. is just some of the more novel like agentic layer that sits on top of BS that has been put together like in this in this sort of isolated team. So it&#x27;s not like folks aren&#x27;t getting to to build with LLMs or use LLMs on a daily basis. &gt;&gt; Yeah. Maybe run people through the BS agent platform. We&#x27;ll put the diagram in the video where you had the LLM gateway. You have like the whole MCP layer. We</p>
@@ -954,20 +961,21 @@ Yi Tay
 * Google DeepMind: https://deepmind.google
 * X: https://x.com/YiTayML
 
-00:00:00 Introduction: Returning to Google DeepMind and the Singapore AGI Team
-00:04:52 The Philosophy of On-Policy RL: Learning from Your Own Mistakes
-00:12:00 IMO Gold Medal: The Journey from AlphaProof to End-to-End Gemini
-00:21:33 Training IMO Cat: Four Captains Across Three Time Zones
-00:26:19 Pokemon and Long-Horizon Reasoning: Beyond Academic Benchmarks
-00:36:29 AI Coding Assistants: From Lazy to Actually Useful
-00:32:59 Reasoning, Chain of Thought, and Latent Thinking
-00:44:46 Is Attention All You Need? Architecture, Learning, and the Local Minima
-00:55:04 Data Efficiency and World Models: The Next Frontier
-01:08:12 DSI and Generative Retrieval: Reimagining Search with Semantic IDs
-01:17:59 Building GDM Singapore: Geography, Talent, and the Symposium
-01:24:18 Hiring Philosophy: High Stats, Research Taste, and Student Budgets
-01:28:49 Health, HRV, and Research Performance: The 23kg Journey</description>
-      <content:encoded><![CDATA[<h2>Introduction: Returning to Google DeepMind and the Singapore AGI Team</h2>
+ Introduction: Returning to Google DeepMind and the Singapore AGI Team
+ The Philosophy of On-Policy RL: Learning from Your Own Mistakes
+ IMO Gold Medal: The Journey from AlphaProof to End-to-End Gemini
+ Training IMO Cat: Four Captains Across Three Time Zones
+ Pokemon and Long-Horizon Reasoning: Beyond Academic Benchmarks
+ AI Coding Assistants: From Lazy to Actually Useful
+ Reasoning, Chain of Thought, and Latent Thinking
+ Is Attention All You Need? Architecture, Learning, and the Local Minima
+ Data Efficiency and World Models: The Next Frontier
+ DSI and Generative Retrieval: Reimagining Search with Semantic IDs
+ Building GDM Singapore: Geography, Talent, and the Symposium
+ Hiring Philosophy: High Stats, Research Taste, and Student Budgets
+ Health, HRV, and Research Performance: The 23kg Journey</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=unUeI7e-iVs">https://www.youtube.com/watch?v=unUeI7e-iVs</a></p>
+<h2>Introduction: Returning to Google DeepMind and the Singapore AGI Team</h2>
 <p>The thing that I find the most useful about like these models in general is like when I have this big spreadsheets of a lot of results and I understand plots of it. I think models can quite use a screenshot and make a plot of this. I hate making this mplot like stuff about it&#x27;s so annoying. There were so many moments this year where AI suddenly cross that like that immersion thing. I think AI coding is one of them where we just discuss. I think like nano also got to the point where I usually like you make these images is just like for fun. They just troll your friend or something like that. But like actually really got so good.</p>
 <p>&gt;&gt; Welcome back. How are you? &gt;&gt; Yeah, I&#x27;m good. I&#x27;m good. Great to be back. It&#x27;s been one one and a half years. &gt;&gt; Yeah, it&#x27;s been one and a half. &gt;&gt; Feels like a long time. So last time we talked, you were at Rika. &gt;&gt; Yeah. And then you joined GDM again working for Quark again. &gt;&gt; Yeah. &gt;&gt; And more recently, you&#x27;ve started GDM Singapore. &gt;&gt; Yeah. &gt;&gt; Is it GDM Singapore? Gemini Singapore, dude. I don&#x27;t know if you&#x27;ve named the team. &gt;&gt; Oh, I I I think we have a Germanite team in Singapore. Yeah, team in Singapore. It&#x27;s called reasoning and AGI. &gt;&gt; Yeah, reasoning AGI. &gt;&gt; Is it important to have AGI in the name? &gt;&gt; It was like a vit thing that we put AGI</p>
 <p>in. Yeah, I think that like one reason why we work on these models is that we want to get to AGI and this was a V thing that we added AGI to the job posting. Yeah, there&#x27;s no like formal name of the team yet, but it&#x27;s basically the Gemini team Singapore. Yeah, I mean I think people are like trying to triangulate Amazon has an AGI team, you guys have an AGI team and then let&#x27;s say Meta now has a super intelligence team. What are people signaling when they choose these names for their teams? Do they have oh we have a plan or is it just vibes?</p>
@@ -1183,17 +1191,18 @@ Prism
 * Try Prism: https://prism.openai.com (free, log in with your ChatGPT account)
 * OpenAI for Science: https://openai.com/science
 
-00:00:00 Introduction: OpenAI Prism Launch and the AI for Science Mission
-00:00:42 Why LaTeX Needs AI: The Scientific Writing Bottleneck
-00:03:13 The Cricket Acquisition Story: From Reddit to OpenAI
-00:05:50 Live Demo: AI-Powered LaTeX Editing with GPT-5.2
-00:17:13 Engineering Challenges: Monaco, WebAssembly, and Backend Rendering
-00:18:19 The Future of Scientific UIs: From Document-First to AI-First
-00:15:51 Collaboration Features and Notebooks: The Next Integration
-00:21:02 AI for Science: From SAT Tests to Open Research Problems
-00:23:32 The Wet Lab Bottleneck: Robotic Labs and Experimental Acceleration
-00:33:08 Self-Acceleration and the Automated AI Researcher by September 2026</description>
-      <content:encoded><![CDATA[<h2>Introduction: OpenAI Prism Launch and the AI for Science Mission</h2>
+ Introduction: OpenAI Prism Launch and the AI for Science Mission
+ Why LaTeX Needs AI: The Scientific Writing Bottleneck
+ The Cricket Acquisition Story: From Reddit to OpenAI
+ Live Demo: AI-Powered LaTeX Editing with GPT-5.2
+ Engineering Challenges: Monaco, WebAssembly, and Backend Rendering
+ The Future of Scientific UIs: From Document-First to AI-First
+ Collaboration Features and Notebooks: The Next Integration
+ AI for Science: From SAT Tests to Open Research Problems
+ The Wet Lab Bottleneck: Robotic Labs and Experimental Acceleration
+ Self-Acceleration and the Automated AI Researcher by September 2026</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=W2cBTVr8nxU">https://www.youtube.com/watch?v=W2cBTVr8nxU</a></p>
+<h2>Introduction: OpenAI Prism Launch and the AI for Science Mission</h2>
 <p>Okay, we&#x27;re here at OpenAI with some exciting news from the AI for science team. Uh with us is Kevin Wild from I guess your VP of AI for science. &gt;&gt; Open AI for science. Yeah, &gt;&gt; open for science and Victor Powell um who is the product lead on the new product that we&#x27;re talking about today. Uh and with me is our new Yeah, for science host R.J. welcome. &gt;&gt; Uh so thanks for having &gt;&gt; us. Yeah, it&#x27;s very good to be here. &gt;&gt; Yeah. uh thanks for hosting us as as well. It&#x27;s always nice to come over to the office. Um what are we announcing today? &gt;&gt; So we&#x27;re launching Prism, which is a an a free AI native [snorts] latte editor.</p>
 <p>What does all that mean? Because</p>
 <h2>Why LaTeX Needs AI: The Scientific Writing Bottleneck</h2>
@@ -1293,24 +1302,25 @@ Andrew White
 * X: https://x.com/andrewwhite01
 * Cosmos paper: https://futurediscovery.org/cosmos
 
-00:00:00 Introduction: Andrew White on Automating Science with Future House and Edison Scientific
-00:02:22 The Academic to Startup Journey: Red Teaming GPT-4 and the ChemCrow Paper
-00:11:35 Future House Origins: The FRO Model and Mission to Automate Science
-00:12:32 Resigning Tenure: Why Leave Academia for AI Science
-00:15:54 What Does 'Automating Science' Actually Mean?
-00:17:30 The Lab-in-the-Loop Bottleneck: Why Intelligence Isn't Enough
-00:18:39 Scientific Taste and Human Preferences: The 52% Agreement Problem
-00:20:05 Paper QA, Robin, and the Road to Cosmos
-00:21:57 World Models as Scientific Memory: The GitHub Analogy
-00:40:20 The Bitter Lesson for Biology: Why Molecular Dynamics and DFT Are Overrated
-00:43:22 AlphaFold's Shock: When First Principles Lost to Machine Learning
-00:46:25 Enumeration and Filtration: How AI Scientists Generate Hypotheses
-00:48:15 CBRN Safety and Dual-Use AI: Lessons from Red Teaming
-01:00:40 The Future of Chemistry is Language: Multimodal Debate
-01:08:15 Ether Zero: The Hilarious Reward Hacking Adventures
-01:10:12 Will Scientists Be Displaced? Jevons Paradox and Infinite Discovery
-01:13:46 Cosmos in Practice: Open Access and Enterprise Partnerships</description>
-      <content:encoded><![CDATA[<h2>Introduction: Andrew White on Automating Science with Future House and Edison Scientific</h2>
+ Introduction: Andrew White on Automating Science with Future House and Edison Scientific
+ The Academic to Startup Journey: Red Teaming GPT-4 and the ChemCrow Paper
+ Future House Origins: The FRO Model and Mission to Automate Science
+ Resigning Tenure: Why Leave Academia for AI Science
+ What Does 'Automating Science' Actually Mean?
+ The Lab-in-the-Loop Bottleneck: Why Intelligence Isn't Enough
+ Scientific Taste and Human Preferences: The 52% Agreement Problem
+ Paper QA, Robin, and the Road to Cosmos
+ World Models as Scientific Memory: The GitHub Analogy
+ The Bitter Lesson for Biology: Why Molecular Dynamics and DFT Are Overrated
+ AlphaFold's Shock: When First Principles Lost to Machine Learning
+ Enumeration and Filtration: How AI Scientists Generate Hypotheses
+ CBRN Safety and Dual-Use AI: Lessons from Red Teaming
+ The Future of Chemistry is Language: Multimodal Debate
+ Ether Zero: The Hilarious Reward Hacking Adventures
+ Will Scientists Be Displaced? Jevons Paradox and Infinite Discovery
+ Cosmos in Practice: Open Access and Enterprise Partnerships</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=XqoBSB3nsgw">https://www.youtube.com/watch?v=XqoBSB3nsgw</a></p>
+<h2>Introduction: Andrew White on Automating Science with Future House and Edison Scientific</h2>
 <p>MD was supposed to be the protein folding solution. There is a great counter example. The counterfactual is basically a group called Desha Research. They had, you know, similar funding to Deepmind. Um, probably more actually. They tested the hypothesis to death that MD could fold proteins. They built their own silicon. They built their own clusters. They had them taped out all themselves. They burned into the silicon the algorithms to run MD. They ran MD at huge speeds, huge scales. I remember David Shaw came to a conference once on</p>
 <p>MD and he flew in by helicopter and was like to this pretty famous guy, kind of rich &gt;&gt; and um he he gave an amazing presentation about the special computers and special room and out outside of Time Square and like what they can do with it. It was beautiful, amazing. And I always thought that protein folding would be solved by them, but it would require a special machine. And maybe the government would buy like five of these things and we could fold, you know, maybe one protein a day or two proteins a day. And when AlphaFold came out and it&#x27;s like you can do it in Google Collab, you know, or on a GPU or desktop, it was so mind-blowing. I</p>
 <p>forget like that protein folding was solved. I always thought that was inevitable, but the fact that it was solved and on like your desktop you can do it was just completely floored. Changed everything. &gt;&gt; This is the first episode of the new AI for science podcast on the LAN space network. I&#x27;m Brandon. I work on RNA therapeutics using machine learning at atomic AI. &gt;&gt; My name is R.J. Haniki. I&#x27;m the co-founder of Mirror Omix where we build spatial transcripttoics AI models. &gt;&gt; The point of this podcast is to bring together AI engineers and scientists or bring together the two communities. These are two communities which have</p>
@@ -1358,7 +1368,7 @@ Andrew White
 <p>&gt;&gt; which is like a lot of science I mean of course we want to you know accelerate technology we want to improve the economy we want to improve people&#x27;s life expecties want everyone to be happier but a lot of what is done in science is is based around like human preferences like why do people study I don&#x27;t know a particular worm well like there is a theory that by studying the worm it has led to good medicines or it&#x27;s led to discovering new genes But also people studied in the past. People&#x27;s careers depend on that worm and people want to write papers about that worm. And so there&#x27;s a human element to some of this and I think the u models don&#x27;t capture</p>
 <p>that so well about knowing what is an exciting result and what is a boring result. &gt;&gt; I see. &gt;&gt; So I think that&#x27;s like scientific taste. It&#x27;s like a broad category of all these things. &gt;&gt; How do you def like do you try to quantify taste in any way? I mean I know that I I have some like fun anecdotes about this but maybe Yeah. just like to hear what you thought.</p>
 <h2>Paper QA, Robin, and the Road to Cosmos</h2>
-<p>&gt;&gt; Yeah, actually we sat on this idea sat on it, but we like argued about it for a long time. Sam and I usually every Monday morning at 8:00 in the morning, Sam and I meet and we&#x27;re both, you know, caffeinated and ready and we argue about stuff like this. And we had a lot of Mondays where we talked about scientific taste. &gt;&gt; And in the end, we&#x27;re like, okay, let&#x27;s just let&#x27;s just do the dumbest thing, which is to like have our agents make hypotheses and put them in front of humans and have them be like, I like this one or I like that one. Right? So we just did like whatever RHF on on on hypothesis and um we learned a lot about how bad RHF is with people just like</p>
+<p>&gt;&gt; Yeah, actually we sat on this idea sat on it, but we like argued about it for a long time. Sam and I usually every Monday morning at in the morning, Sam and I meet and we&#x27;re both, you know, caffeinated and ready and we argue about stuff like this. And we had a lot of Mondays where we talked about scientific taste. &gt;&gt; And in the end, we&#x27;re like, okay, let&#x27;s just let&#x27;s just do the dumbest thing, which is to like have our agents make hypotheses and put them in front of humans and have them be like, I like this one or I like that one. Right? So we just did like whatever RHF on on on hypothesis and um we learned a lot about how bad RHF is with people just like</p>
 <p>people pay really attention to to the tone to the details to like how many specific facts or figures from the hypothesis right like actionability about like if the experiment is feasible but what people didn&#x27;t really pay attention to is like I don&#x27;t know how to describe this like if this hypothesis is true how does it change the world if the hypothesis is false how does it change the world this like um how much information you gain. It&#x27;s not really information but like impact or something &gt;&gt; and that really didn&#x27;t come through from those things. So then we&#x27;re like okay well this is maybe one strategy and so we had to go back and think about it more and um we then took a pause from</p>
 <p>that research and then we made cosmos and then cosmos like has baked into it taste right like at the end of the day there will be some report and we&#x27;re working on generalizing this basically at the end of like I made these discoveries and a person be like great I want to download that one or I like that one right I don&#x27;t like this one and that rolls up to some hypothesis that came earlier in the process and so we think we can get to end to end on as opposed to human preferences. &gt;&gt; So you mean the feedback loop is the click? &gt;&gt; It could be the click. It could be also like the you know it we do an</p>
 <p>experiment. Sometimes in cosmos you could ask to end an experiment. You go see was experiment a success or failure or something like but I guess like we we&#x27;ve brought it out of this kind of like hard to quantify is this a good hypothesis or a bad hypothesis and into</p>
@@ -1479,35 +1489,36 @@ Andrew White
       <description>In this Lightning pod, swyx hosts Jaya Gupta and Ashu Garg from Foundation Capital to discuss the emergence of context graphs. They define this new framework as the institutional memory of "the why" behind business decisions, captured through decision traces—the sequence of steps and human reasoning that models often miss. The conversation explores how these graphs will become the defensible moat for the next generation of applied AI companies and systems of agents.
 
 Section Timestamps
-[00:03] – Introductions and the early "vibe" of AI hackathons post-ChatGPT.
+ – Introductions and the early "vibe" of AI hackathons post-ChatGPT.
 
-[02:00] – The origin story of the Context Graph thesis at Foundation Capital.
+ – The origin story of the Context Graph thesis at Foundation Capital.
 
-[04:59] – Defining the Context Graph and the Decision Trace.
+ – Defining the Context Graph and the Decision Trace.
 
-[07:32] – Who is building this today? Examples like Player Zero and Glean.
+ – Who is building this today? Examples like Player Zero and Glean.
 
-[09:37] – Technical implementation: Is there an ideal data structure?
+ – Technical implementation: Is there an ideal data structure?
 
-[12:09] – Explaining "Systems of Agents" vs. standard chatbots.
+ – Explaining "Systems of Agents" vs. standard chatbots.
 
-[15:26] – The importance of the "Right Path" (operational) vs. the "Read Path" (analytical).
+ – The importance of the "Right Path" (operational) vs. the "Read Path" (analytical).
 
-[18:46] – Why these will be new platforms rather than features in Slack or GitHub.
+ – Why these will be new platforms rather than features in Slack or GitHub.
 
-[21:48] – Addressing pushbacks: Can you truly capture the "Why" or just the "How"?
+ – Addressing pushbacks: Can you truly capture the "Why" or just the "How"?
 
-[24:04] – Privacy, data governance, and "Metadata 3.0."
+ – Privacy, data governance, and "Metadata 3.0."
 
-[26:43] – Context Graphs vs. Data Mesh: Why universal graphs are unlikely.
+ – Context Graphs vs. Data Mesh: Why universal graphs are unlikely.
 
-[31:18] – 2026 Predictions: The "Context Graph Stack" and production scale.
+ – 2026 Predictions: The "Context Graph Stack" and production scale.
 
 show notes
 https://foundationcapital.com/context-graphs-ais-trillion-dollar-opportunity/
 https://x.com/JayaGup10/status/2003525933534179480
 https://simple.ai/p/what-are-context-graphs</description>
-      <content:encoded><![CDATA[<h2>&lt;Untitled Chapter 1&gt;</h2>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=zP8P7hJXwE0">https://www.youtube.com/watch?v=zP8P7hJXwE0</a></p>
+<h2>&lt;Untitled Chapter 1&gt;</h2>
 <p>[music]</p>
 <h2>Introductions and the early &quot;vibe&quot; of AI hackathons post-ChatGPT.</h2>
 <p>All right, we are starting uh with the uh lin space pod in [music] a remote studio. Welcome to Jay Gupta and Ashgar from uh Foundation Capital. &gt;&gt; Thank you for having us. &gt;&gt; Thanks for having us. &gt;&gt; Uh Jay, we apparently met 3 years ago at the Langchain hackathon where uh Factory was born. Were you were you also actively thinking about like context stuff back then or like what what was the what was the vibe 3 years ago? Yeah, I think 3 years ago was probably like the first uh AI hackathon and I cannot say I was thinking about context things at that time. I was just thinking about</p>
@@ -1624,23 +1635,24 @@ Mark Bissell
 • LinkedIn: https://www.linkedin.com/in/mark-bissell/
 • X: https://x.com/MarkMBissell
 
-00:00 Introduction
-00:45 Welcome + episode setup + intro to Goodfire
-02:16 Fundraise news + what’s changed recently
-02:44 Guest backgrounds + what they do day-to-day
-05:52 “What is interpretability?” (SAEs, probing, steering and quick map of the space)
-08:29 Post-training failures (sycophancy/reward hacking) + using interp to guide learning
-10:26 Surgical edits: bias vectors + grokking/double descent + subliminal learning
-14:04 How Goodfire decides what to work on (customers → research agenda)
-16:58 SAEs vs probes: what works better for real-world detection tasks
-19:04 Rakuten case study: production PII monitoring + multilingual + token-level scrubbing
-22:06 Live steering demo on a 1T-parameter model (and scaling challenges)
-25:29 Feature labeling + auto-interpretation + can we “turn down” hallucinations?
-31:03 Steering vs prompting equivalence + jailbreak math + customization implications
-38:36 Open problems + how to get started in mech interp
-46:29 Applications: healthcare + scientific discovery (biomarkers, Mayo Clinic, etc.)
-57:10 Induction + sci-fi intuition (Ted Chiang)</description>
-      <content:encoded><![CDATA[<h2>Introduction</h2>
+ Introduction
+ Welcome + episode setup + intro to Goodfire
+ Fundraise news + what’s changed recently
+ Guest backgrounds + what they do day-to-day
+ “What is interpretability?” (SAEs, probing, steering and quick map of the space)
+ Post-training failures (sycophancy/reward hacking) + using interp to guide learning
+ Surgical edits: bias vectors + grokking/double descent + subliminal learning
+ How Goodfire decides what to work on (customers → research agenda)
+ SAEs vs probes: what works better for real-world detection tasks
+ Rakuten case study: production PII monitoring + multilingual + token-level scrubbing
+ Live steering demo on a 1T-parameter model (and scaling challenges)
+ Feature labeling + auto-interpretation + can we “turn down” hallucinations?
+ Steering vs prompting equivalence + jailbreak math + customization implications
+ Open problems + how to get started in mech interp
+ Applications: healthcare + scientific discovery (biomarkers, Mayo Clinic, etc.)
+ Induction + sci-fi intuition (Ted Chiang)</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=ck63uv6APBA">https://www.youtube.com/watch?v=ck63uv6APBA</a></p>
+<h2>Introduction</h2>
 <p>If you ask 50 people who quote unquote work in interp like what is interpretability, you&#x27;ll probably get [music] 50 different answers to some extent. Also, like we&#x27;re where Goodfire sits in the space. We&#x27;re an AI research company above all else and interpretability is a is a set of methods that we think are really useful and worth [music] kind of specializing in in order to accomplish the goals we want to accomplish. But I think we also sort of see some of the goals as even more broader as as almost like the science of deep learning and just taking a not blackbox [music] approach to sort of internal representations and then</p>
 <p>bringing interpretability to training which I don&#x27;t think has been done all that much before.</p>
 <h2>Welcome + episode setup + intro to Goodfire</h2>
@@ -1799,7 +1811,8 @@ This is exactly what today's guest, Pratyush, did: https://x.com/pratyushmaini/s
 And we convened a quick ⚡️ pod to talk about it!
 
 https://pratyushmaini.substack.com/p/reverse-engineering-a-phase-change-a96</description>
-      <content:encoded><![CDATA[<h2>Transcript</h2>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=CSgjaC6y6Mk">https://www.youtube.com/watch?v=CSgjaC6y6Mk</a></p>
+<h2>Transcript</h2>
 <p>[music] Hi, welcome uh to the lane space lightning pod. Uh we have Pratush here from Dtology, one of the founding team members. Listeners to the pod will remember our episode with Ariotos. I think it was one of the top episodes of 2025. Uh so I want to double down on uh the interesting work coming on Dlogy. I think not enough people are looking at the data and we want to encourage engineers and researchers to think more deeply about data and I think data is one of the best teams that is like basically all data nerds. Uh Patric uh you your bio has like 70%</p>
 <p>California 20% Pittsburgh 10% Delhi you&#x27;re in South Bay right now right with the at the office. &gt;&gt; That&#x27;s correct. I&#x27;m at the office. &gt;&gt; Yeah. Yeah. Cool. Cool. How else do you introduce yourself? any any other things that people should know about you before we get started? &gt;&gt; No, that was pretty good. Thank you so much for having me. Um I am um I&#x27;m basically finishing up my PhD at CMU and have been a part of the founding team at Dtology for more than 2 years now. It&#x27;s been a while that we&#x27;ve been building this company. I am very excited about datacentric aspects to AI and more of how we can build responsible and very</p>
 <p>high performance systems by focusing on the data layer. Somehow data is still one of the more undervalued research topics and um I&#x27;ve been that&#x27;s been the focus of my PhD and now also a lot of the time at Dtology. I think you&#x27;re very well pointed that we&#x27;re all data nerds. We love looking at data in general. I think one of the coolest parts about looking at data is like we can share like strange artifacts about it. In fact, we even made a channel called data is weird on our Slack channel where we keep posting screenshots and snippets of like all of these random artifacts that</p>
@@ -1865,23 +1878,24 @@ BoltzLab, the newly launched platform, encapsulates this vision by providing a c
 
 Timestamps
 
-00:00 Introduction to Benchmarking and the “Solved” Protein Problem
-06:48 Evolutionary Hints and Co-evolution in Structure Prediction
-10:00 The Importance of Protein Function and Disease States
-15:31 Transitioning from AlphaFold 2 to AlphaFold 3 Capabilities
-19:48 Generative Modeling vs. Regression in Structural Biology
-25:00 The “Bitter Lesson” and Specialized AI Architectures
-29:14 Development Anecdotes: Training Boltz-1 on a Budget
-32:00 Validation Strategies and the Protein Data Bank (PDB)
-37:26 The Mission of Boltz: Democratizing Access and Open Source
-41:43 Building a Self-Sustaining Research Community
-44:40 Boltz-2 Advancements: Affinity Prediction and Design
-51:03 BoltzGen: Merging Structure and Sequence Prediction
-55:18 Large-Scale Wet Lab Validation Results
-01:02:44 Boltz Lab Product Launch: Agents and Infrastructure
-01:13:06 Future Directions: Developpability and the “Virtual Cell”
-01:17:35 Interacting with Skeptical Medicinal Chemists</description>
-      <content:encoded><![CDATA[<h2>Introduction to Benchmarking and the “Solved” Protein Problem</h2>
+ Introduction to Benchmarking and the “Solved” Protein Problem
+ Evolutionary Hints and Co-evolution in Structure Prediction
+ The Importance of Protein Function and Disease States
+ Transitioning from AlphaFold 2 to AlphaFold 3 Capabilities
+ Generative Modeling vs. Regression in Structural Biology
+ The “Bitter Lesson” and Specialized AI Architectures
+ Development Anecdotes: Training Boltz-1 on a Budget
+ Validation Strategies and the Protein Data Bank (PDB)
+ The Mission of Boltz: Democratizing Access and Open Source
+ Building a Self-Sustaining Research Community
+ Boltz-2 Advancements: Affinity Prediction and Design
+ BoltzGen: Merging Structure and Sequence Prediction
+ Large-Scale Wet Lab Validation Results
+ Boltz Lab Product Launch: Agents and Infrastructure
+ Future Directions: Developpability and the “Virtual Cell”
+ Interacting with Skeptical Medicinal Chemists</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=nP0N1kYLegc">https://www.youtube.com/watch?v=nP0N1kYLegc</a></p>
+<h2>Introduction to Benchmarking and the “Solved” Protein Problem</h2>
 <p>Actually, we only trained the big model once. Uh that&#x27;s how much compute we had. We could only train it once. And so, like while the model was training, we were like finding bugs left and right. Uh a lot of them that I wrote. &gt;&gt; And like I would I remember like us like sort of like you know doing like surgery in the middle like stopping the run, making the fix, like relaunching and um yeah, we never actually went back to the start. We just like kept training it with like the bug fixes along the way. Uh which was &gt;&gt; impossible to reproduce now. Yeah. Yeah. No, that model is like has gone through such a curriculum that you</p>
 <p>know it&#x27;s learned some weird stuff. Uh but uh yeah, somehow a miracle it worked out. &gt;&gt; It&#x27;s a pleasure to have with us today Gabriella Corso and Jeremy Vulvin. They are they recently founded Boltz, a company trying to democratize and bring art, structure prediction and biology to you know the masses. uh they were both uh recent PhD grads from MIT and have been working on all sorts of foundational papers in like generative biology. Um anyway, uh pleasure to have you here. Thanks for coming. &gt;&gt; Thank you.</p>
 <p>&gt;&gt; Uh I guess we&#x27;re maybe what 6 years post Alphold 2 right now, which was like kind of a big moment. &gt;&gt; Um is that right? Yeah. &gt;&gt; I think was it 2021? &gt;&gt; So yeah, on going on 5 years. &gt;&gt; 5 years. 5 years. Yeah. Um, yeah. So maybe for the audience like can can let&#x27;s go back to that moment in time and explain like what was this big moment and why was it interesting? Why was everyone so excited and I think you two were probably quite excited. So why were you personally excited? &gt;&gt; I would start on kind of why that was interesting kind of you know from a</p>
@@ -2122,27 +2136,28 @@ Google
 • https://google.com
 • https://deepmind.google
 
-00:00:00 Intro
-00:01:31 Frontier vs Flash &amp; Distillation Strategy  
-00:05:09 Distillation, RL &amp; Flash Economic Advantage  
-00:07:35 Flash in Products + Importance of Latency  
-00:11:11 Benchmarks, Long Context &amp; Real Use Cases  
-00:15:01 Attending to Trillions of Tokens &amp; Multimodality  
-00:20:11 LLM Search &amp; Google Search Evolution  
-00:24:09 Systems Design Principles + Latency Numbers  
-00:32:09 Energy, Batching &amp; TPU Co-Design  
-00:42:21 Research Frontiers: Reliability &amp; RL Challenges  
-00:46:27 Unified Models vs Symbolic Systems (IMO)  
-00:50:38 Knowledge vs Reasoning + Vertical/Modular Models  
-00:55:58 Multilingual + Low-Resource Language Insights  
-00:57:58 Vision-Language Representations Example  
-01:07:15 Gemini Origin Story + Organizational Memo  
-01:09:27 Coding with AI &amp; Agent Interaction Style  
-01:14:26 Prompting Skills &amp; Spec Design  
-01:19:54 Latency Predictions &amp; Tokens/sec Vision  
-01:21:29 Future Predictions: Personal Models &amp; Hardware  
-01:23:11 Closing</description>
-      <content:encoded><![CDATA[<h2>Intro</h2>
+ Intro
+ Frontier vs Flash &amp; Distillation Strategy 
+ Distillation, RL &amp; Flash Economic Advantage 
+ Flash in Products + Importance of Latency 
+ Benchmarks, Long Context &amp; Real Use Cases 
+ Attending to Trillions of Tokens &amp; Multimodality 
+ LLM Search &amp; Google Search Evolution 
+ Systems Design Principles + Latency Numbers 
+ Energy, Batching &amp; TPU Co-Design 
+ Research Frontiers: Reliability &amp; RL Challenges 
+ Unified Models vs Symbolic Systems (IMO) 
+ Knowledge vs Reasoning + Vertical/Modular Models 
+ Multilingual + Low-Resource Language Insights 
+ Vision-Language Representations Example 
+ Gemini Origin Story + Organizational Memo 
+ Coding with AI &amp; Agent Interaction Style 
+ Prompting Skills &amp; Spec Design 
+ Latency Predictions &amp; Tokens/sec Vision 
+ Future Predictions: Personal Models &amp; Hardware 
+ Closing</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=F_1oDPWxpFQ">https://www.youtube.com/watch?v=F_1oDPWxpFQ</a></p>
+<h2>Intro</h2>
 <p>[music] Hey everyone, welcome to the L in space podcast. This is Allesio, founder of Colonel Labs, and I&#x27;m joined by Swix, editor of L in Space. &gt;&gt; Hello. Hello. We&#x27;re here in the studio with Jeff Dean, chief AI scientist at Google. Welcome. &gt;&gt; Thanks for having me. [laughter] &gt;&gt; It&#x27;s a bit surreal to have you in the studio. I&#x27;ve I&#x27;ve watched so many of your talks uh and obviously uh you your career has been super legendary. So, uh I mean, congrats. I I think the the first thing must be said congrats on owning the Purto Frontier. [laughter] &gt;&gt; Thank you. Thank you. Parto Frontiers are good and it&#x27;s good to be out there.</p>
 <p>&gt;&gt; Yeah. I mean I I think it&#x27;s a combination of both uh your you have to own the Parto Frontier you have to have like frontier capability but also efficiency and then offer that range of models [snorts] that people like to use. uh and you know some part of this was started because of your hardware work some part of that is your model work and uh you know I&#x27;m sure there&#x27;s lots of secret sauce that you guys uh have worked on uh accumulatively but like it&#x27;s it&#x27;s really impressive to see it all come together in like this steadily advancing frontier. &gt;&gt; Yeah. Yeah. I mean I think as you say</p>
 <p>it&#x27;s not just one thing it&#x27;s like a whole bunch of things up and down the stack &gt;&gt; and uh you know all of those really combined to help make you an OS able to make highly capable large models as well as you know software techniques to get those large model capabilities into much smaller lighter weight models that are you know much more cost-effective and lower latency but still you know quite capable for their size. So</p>

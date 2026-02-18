@@ -8,14 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Feb 2026 13:16:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Feb 2026 13:24:41 +0000</lastBuildDate>
     <item>
       <title>Turning ideas into reality with Figma</title>
       <link>https://www.youtube.com/watch?v=uCw6JIryJL0</link>
       <description>Figma democratizes design through its collaborative design products. It evolved from a design tool into an AI-powered platform when doubling its products in May 2025. In doing so, it helps teams go from idea to shipped product faster than ever before.
 
 Learn more about Figma: http://stripe.com/customers/figma</description>
-      <content:encoded><![CDATA[<h2>Transcript</h2>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=uCw6JIryJL0">https://www.youtube.com/watch?v=uCw6JIryJL0</a></p>
+<h2>Transcript</h2>
 <p>Figma is a design tool that helps people bring their ideas out of their head and get them into the world. We want you to be able to get in there and design what you want. We cater to a lot of different people, a lot of different sizes of organizations and teams. Designing beautiful products and just making the world a more well-designed place is what Figma is trying to do. One of the things I love most about Figma is similar to one of the things I love most about Stripe, which is the focus on craft. We care about quality, we care about simplicity.</p>
 <p>With Stripe, we have the ability to meet customers where they are. To charge them in their local payment methods and in their local currency. About 85% of our users are based outside the US. We have so much that we want to do, especially in terms of how our customers access Figma, how they get value out of Figma. We went from four products to eight. We introduced new tools for AI. Stripe is really meant to serve businesses from that initial moment where they have a single product all the way to when they&#x27;re scaling. It was really important for us</p>
 <p>when we were redoing our billing model that it was more transparent, simple and easy to understand for our customers. In the future, we want to be able to look at things like usage-based billing or other ways of billing our customers. We&#x27;re able to know that Stripe is going to be ready to support us as we ship different types of products that just have completely different monetization needs. I think that is really empowering to be able to keep your main thing the main thing, right? Keep your focus on what you&#x27;re building</p>
@@ -29,7 +30,8 @@ Learn more about Figma: http://stripe.com/customers/figma</description>
       <description>Barkibu is one of Europe's fastest-growing pet health insurance providers. With a card-based insurance program by Visa and Stripe Issuing, Barkibu helps make quality animal healthcare more accessible for their customers by eliminating the traditional reimbursement model—so pet owners no longer have to pay up front and wait for reimbursement.
 
 Learn more about Barkibu: https://stripe.com/customers/barkibu</description>
-      <content:encoded><![CDATA[<h2>Transcript</h2>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=d6AXruG-fxc">https://www.youtube.com/watch?v=d6AXruG-fxc</a></p>
+<h2>Transcript</h2>
 <p>In the backpack is Minerva. She loves going out and about, exploring with me and, in her favorite spots, she’s the absolute queen. Gideon, he snores and he barks really loud when he’s asleep. Yes, you do. Cannelle, she has a very unique personality. Smart, a little sassy. CANNELLE! She comes back when she wants to. Barkibu is a pet insurance company.</p>
 <p>Animals feel and they transmit that to you, and they help you. She’s called Fenki. Say hi, Fenki. There’s Lemmy. This is Michimoni. Lemmy! This is Max. Lemmy! One thing that Lemmy likes a lot is escaping, too. He’s a little Houdini. The fact that we work with this love for animals I think this helps us connect deeply with many pet parents. We work hard to give them the best product so that they can take care of veterinary expenses and, as a result, enjoy a healthy pet for a long time.</p>
 <p>Visa and Stripe Issuing have allowed us to be able to develop this card product and to be able to really fulfill our mission to help more animals. When you pay with this card at the vet, you don’t pay out of pocket, but rather Barkibu pays and then charges you for what is not covered. It’s a sense of security. We can go on adventures. If something were to happen, they’re covered. I don’t need to worry if there’s enough money in my account. They take care of everything.</p>
@@ -56,20 +58,21 @@ Apple Podcasts: https://podcasts.apple.com/us/podcast/cheeky-pint/id1821055332
 Substack: https://cheekypint.substack.com/
 
 Key moments
-00:00 AI adoption in the enterprise
-08:58 How Satya runs Microsoft
-14:51 New UIs
-21:49 Microsoft tackling the early internet
-27:03 Are we in a bubble?
-32:40 Data sovereignty
-39:10 Excel
-43:26 Agentic commerce
-54:10 AI brand loyalty
-01:01:09 Product bundling
-01:09:42 Microsoft’s culture
-01:13:36 The law of very large companies
-01:17:33 What’s in the water in Hyderabad?</description>
-      <content:encoded><![CDATA[<h2>AI adoption in the enterprise</h2>
+ AI adoption in the enterprise
+ How Satya runs Microsoft
+ New UIs
+ Microsoft tackling the early internet
+ Are we in a bubble?
+ Data sovereignty
+ Excel
+ Agentic commerce
+ AI brand loyalty
+ Product bundling
+ Microsoft’s culture
+ The law of very large companies
+ What’s in the water in Hyderabad?</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=L2OPYYthw4c">https://www.youtube.com/watch?v=L2OPYYthw4c</a></p>
+<h2>AI adoption in the enterprise</h2>
 <p>Bill was always obsessed. I remember him distinctly saying this in the &#x27;90s, he said, &quot;There&#x27;s only one category in software. It&#x27;s called information management. You got to schematize people, places and things, and that&#x27;s it.&quot; The problem is people are messy. Do people have loyalty to a model or do they have loyalty to an AI brand? You want an ensemble of models. You have agents intermediating that ensemble so that it meets your needs. Will everyone&#x27;s preference not just be for more intelligence? Like, I&#x27;ll go into the picker and manually select o3 for like, &quot;Where should I go get ice cream,&quot; query? It&#x27;s like a rite of passage for certain software companies</p>
 <p>to try to take on Excel. Why is it so durable? We sort of don&#x27;t give it enough credit. It&#x27;s like, &quot;I can make it do anything.&quot; I think the world&#x27;s most approachable programming environment. 100%. And Pieter here is who? Pieter is Pieter Levels. He&#x27;s like an indie— Oh, yes, I know him. Yeah, you know Pieter Levels. I know him, yeah. Course yes. You&#x27;re so online. See, Satya knows who Pieter Levels is. This is why Microsoft is like an $14 trillion company. Was there anything good to see at the data center? Or is like— There&#x27;s always— &quot;That&#x27;s a lot of racks.&quot; It&#x27;s the most fun place to go, man. Yeah.</p>
 <p>Satya Nadella took over as Microsoft CEO in 2014, but he&#x27;s been with the company for more than 30 years and has seen a lot. Microsoft has grown by 10X in the time that Satya has been running it. And he&#x27;s credited with Microsoft&#x27;s success first in cloud and now in the AI boom. Cheers, John. This is great. So what should people be excited about at Ignite? The Ignite Conference for us, more than anything else, is about making sure that AI is getting diffused inside of the enterprise, right? I mean, if there is one thing,</p>
@@ -240,7 +243,8 @@ Key moments
       <description>Brightwheel is a leading childcare management software provider and supports the small businesses that make up the $100 billion early education market. The software removes administrative tasks like billing, enrollment, and payroll—giving educators more time with children each day.
 
 Learn more about brightwheel: http://stripe.com/customers/brightwheel</description>
-      <content:encoded><![CDATA[<h2>Transcript</h2>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=JU4m7Lm6TlM">https://www.youtube.com/watch?v=JU4m7Lm6TlM</a></p>
+<h2>Transcript</h2>
 <p>Even before families come to our school, before they even step foot in the building, we are interacting with them on Brightwheel. But then when the kiddos actually arrive, throughout their kids&#x27; day, they can see kind of a ticker tape of what&#x27;s going on. It gives them peace of mind. They know that once they&#x27;ve checked their child in that they&#x27;re well taken care of. The moment you have kids that becomes your life. Like, you have your work, sleep, and your children. We can be very demanding to really develop them to be kind great human beings and that demands go to the school.</p>
 <p>And that&#x27;s where we as Brightwheel come in. We are the leading childcare management software providers. We take a lot of the admin and problems that a school has to deal with away, which allows them to actually focus on what matters the most and that&#x27;s the development of the students in their care. As a director, harnessing this technology, it has freed up literally hours upon hours within my week to spend time in the classrooms, getting to know the kids and supporting teachers. With Brightwheel, you can set up whatever billing structure that you want. Previously, my billing might&#x27;ve taken four to five hours in one given day.</p>
 <p>Now it&#x27;s just 20 minutes. On the payment side, we&#x27;re able to provide an amazing experience there because we partner with Stripe. Receiving those payments on time are hugely important for our schools. They rely on that to the next day, already use those payments to pay the rent, to issue payroll. That is like an entire payment infrastructure that we would have had to build ourselves. Our goal is that parents and schools never even have to talk about these payments. It&#x27;s hugely important, but they don&#x27;t have to worry about it. My conversation with families is &#x27;How was your day?’</p>
@@ -258,19 +262,20 @@ Learn more about brightwheel: http://stripe.com/customers/brightwheel</descripti
 Full transcript on Substack: https://cheekypint.substack.com/p/julia-dewahl-of-antares-on-building
 
 Timecodes:
-00:00 Lessons from SpaceX and Opendoor
-03:56 Introducing Antares
-07:40 The path to market
-13:29 Nuclear vibeshift
-16:20 Regulation
-20:31 Possible energy futures
-25:11 Stripe Radar
-26:09 Nuclear supply chains
-27:57 Antares origin story
-31:38 Funding Antares
-37:22 If Julia was energy tsar
-43:46 Restarting shuttered plants</description>
-      <content:encoded><![CDATA[<h2>Lessons from SpaceX and Opendoor</h2>
+ Lessons from SpaceX and Opendoor
+ Introducing Antares
+ The path to market
+ Nuclear vibeshift
+ Regulation
+ Possible energy futures
+ Stripe Radar
+ Nuclear supply chains
+ Antares origin story
+ Funding Antares
+ If Julia was energy tsar
+ Restarting shuttered plants</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=a_i39TTzGQw">https://www.youtube.com/watch?v=a_i39TTzGQw</a></p>
+<h2>Lessons from SpaceX and Opendoor</h2>
 <p>The US did have this long-running anti-nuclear bent. I can&#x27;t even tell you how much has changed in the last few years. They changed the mandate of the NRC and they said you are no longer focused just on safety. Department of Energy pathways have been also unopened and unblocked for test reactors. The last 10 years or so, it&#x27;s been like 1% of nuclear fuel used in the US was actually domestically mined. We&#x27;re still buying like almost 50% of our uranium from Russia and kind of ex-Soviet states. How capital intensive is it going to be to get your product to market?</p>
 <p>Oh, in the hundreds of millions. The biggest organization that showed up against Diablo Canyon was called &quot;Mothers for Peace.&quot; This organization was that old that it was related to the Nuclear Cold War, right? I&#x27;m part of this &quot;Mothers for Nuclear&quot; organization. Mothers against their mothers? Yeah. And then I brought some graphite. Do you want to take that out and I&#x27;ll show it? Sure, yeah. This is what we are using for our moderator in our reactor. It has been designated a critical mineral. It&#x27;s an important one. But this is just graphite. Like this is not, you know, uranium-235 or something.</p>
 <p>No, I wouldn&#x27;t have brought you that. That would&#x27;ve been a little bit dangerous to be holding. Julia DeWahl is the co-founder of Antares, which is designing nuclear micro-reactors for the military and other off-grid use cases. Cheers. Cheers. Thanks for coming by. It&#x27;s great to be here. So you started out first at Opendoor and then SpaceX. What did you learn in each one of those that you took to Antares? Yeah, sure. I think one of the big things is always about customers, right?</p>
@@ -379,7 +384,8 @@ Timecodes:
       <title>UK Budget 2025: Stripe + Startup Coalition</title>
       <link>https://www.youtube.com/watch?v=Bpx24IFszrs</link>
       <description>The Startup Coalition and Stripe host founders, entrepreneurs, and policymakers to discuss implications of the UK Budget for startups and tech companies.</description>
-      <content:encoded><![CDATA[<h2>Transcript</h2>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=Bpx24IFszrs">https://www.youtube.com/watch?v=Bpx24IFszrs</a></p>
+<h2>Transcript</h2>
 <p>We are delighted to have uh the minister for AI with us, Kiska Nayan. Uh we are also going to be joined by Alex Dep uh the chancellor&#x27;s entrepreneurship adviser. So with that, I&#x27;m I&#x27;m going to hand over to Dom from the startup coalition who&#x27;s going to be moderating this discussion. Dom over to you. &gt;&gt; Thanks everyone for joining. Um first of all, Keska, what&#x27;s in the budget? What was in the budget today? &gt;&gt; Thanks Tom. Thanks Tripe. Uh can I firstly just say how great it is to be a stripe. Uh it was a fintech company that</p>
 <p>I used to look at a lot when I was a fintech venture investor. I remember when I was at Atomico, we were figuring out uh what to do with the stake that Atomico had in uh in in in Stripe and my strong recommendation was a was a big hold and so I&#x27;m delighted to have been validated by the uh progress the company has made and uh and delighted to be here today as well. Look, I can&#x27;t be more excited uh about the budget as it relates to tech startups and AI. Uh let me let me start with a preview of uh what came before today uh as a uh as a trail in the run-up to the budget which</p>
 <p>was an immense package on AI very specifically uh which I think made a big dent and uh it all started I remember about 8 weeks ago now I wrote a note to Liz uh my boss and said um it feels like we&#x27;re doing quite a lot across government on tech and AI but for some reason the uh the the situation is Britain the in is the inverse of the US where the narrative drags reality up into the future. And in Britain, our reality is actually not that bad, but the narrative kind of drags us down. And we need to shift both the reality and shift narrative upwards. And so we uh made sure that there was an immense</p>
@@ -473,7 +479,8 @@ Timecodes:
       <description>Guillermo Rauch, CEO and founder of Vercel, joins Stripe's Head of Data &amp; AI, Emily Glassberg Sands, for a fireside chat on how Vercel scaled to $200 million ARR by shipping week-over-week, why AI agents are becoming the next users of software, and how natural language is transforming into the new programming primitive for builders.
 
 Learn more at https://stripe.com/startups</description>
-      <content:encoded><![CDATA[<h2>Transcript</h2>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=faaRYgijQ-w">https://www.youtube.com/watch?v=faaRYgijQ-w</a></p>
+<h2>Transcript</h2>
 <p>Well, thanks so much for being here today for Build Day. Build Day&#x27;s really all about turning great ideas into great products, and so when we stepped back and asked what that might mean, we thought, well, no better company to talk to than Vercel, who&#x27;s very much at the forefront of making that possible, and Guillermo, in particular, who, of course, is the genius behind Next.js and Vercel in parallel. So, lots of good conversation to be had around open source- Good to be here, thank you. -And business. I think earlier this year</p>
 <p>you guys announced 200 million ARR and a doubling of users year over year. For those of you who are reasoning about sort of scale and what might be possible, I heard 4.3 million downloads a week of your AI SDK alone. Yeah, it&#x27;s hard to keep count of downloads &#x27;cause they&#x27;re growing so fast. Good problem to have. But, yeah, the business has been growing really fast, and, as many others I think here, it was born in the cloud and it was born on Stripe. Amazing, and, you know, I think with many of today&#x27;s startups,</p>
 <p>rather than reasoning about year-over-year growth, we&#x27;re increasingly reasoning about month-over-month growth or even week-over-week growth- Day. Day. Day? You could ship something today that makes a huge difference. Always elevating ambitions, amazing. Well, thank you for being here. I thought we could start maybe a bit with your background. Born in Buenos Aires, taught yourself how to code? True story? That&#x27;s right, yeah. Curious about kind of your early journey and what brought you to the US. You know, there are a lot of parallels between what I set out to do with Vercel in my early days because teaching myself to code and speak English was quite the challenge, but-</p>
@@ -550,17 +557,18 @@ Learn more at https://stripe.com/startups</description>
       <description>Learn how to set up Stripe Checkout, a prebuilt payment page that helps you quickly accept online payments. This video will walk you through how Stripe Checkout works, how to choose between Stripe-hosted and embedded Checkout, how to add features that boost conversion rates, and developer resources. Get started with Stripe today to accept online payments with a conversion-optimized payment form. 
 
 Chapters:
-00:00 Checkout introduction
-00:30 Understanding Checkout
-01:06 Optimizing for conversion
-01:29 Developer resources
+ Checkout introduction
+ Understanding Checkout
+ Optimizing for conversion
+ Developer resources
 
 Resources: 
 https://docs.stripe.com/payments/checkout 
 https://docs.stripe.com/checkout/quickstart 
 
 Get started with Stripe: https://stripe.com/register</description>
-      <content:encoded><![CDATA[<h2>Checkout introduction</h2>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=_7Au6p2PZVg">https://www.youtube.com/watch?v=_7Au6p2PZVg</a></p>
+<h2>Checkout introduction</h2>
 <p>Hello, this is a walkthrough of Stripe Checkout, a pre-built payment page that helps you quickly accept online payments. Whether you&#x27;re selling products, subscriptions, or services, Checkout makes it easy to convert more customers with a payment experience that&#x27;s optimized for conversion, security, and ease of use. In this video, we&#x27;ll cover how Stripe Checkout works, how to choose between Stripe hosted and embedded Checkout, how to add features that boost your conversion rates, and developer resources. Let&#x27;s</p>
 <h2>Understanding Checkout</h2>
 <p>get started. Stripe Checkout is a pre-built payment form that&#x27;s designed to convert more customers and reduce development time. Stripe offers two ways to integrate checkout, hosted and embedded. With hosted checkout, [music] customers complete payment on a page hosted by Stripe. Just redirect your customer to the checkout URL and Stripe handles the rest, including security compliance and optimized payment flows. [music] This is the simplest option with minimal code required. With embedded checkout, the payment form appears directly on your website, giving you more control</p>
@@ -581,18 +589,19 @@ Get started with Stripe: https://stripe.com/register</description>
       <description>Learn how to start getting paid online with no-code and low-code tools. This video will walk you through setting up a Stripe Payment Link to sell your products, even if you don’t have a website. We'll also discuss how to configure a buy button to match your brand and how to configure your checkout experience to offer the payment methods your customers prefer. Get started with Stripe today to accept payments online, no coding required.
 
 Chapters:
-00:00 Introducing Stripe Payment Links
-00:27 Creating a payment link
-01:24 Sharing your payment link
-01:45 Adding a buy button to your website
-02:03 Configuring your checkout experience
+ Introducing Stripe Payment Links
+ Creating a payment link
+ Sharing your payment link
+ Adding a buy button to your website
+ Configuring your checkout experience
 
 Resources:
 https://docs.stripe.com/payment-links
 https://docs.stripe.com/no-code/get-started#sell-online 
 
 Get started with Stripe: https://stripe.com/register</description>
-      <content:encoded><![CDATA[<h2>Introducing Stripe Payment Links</h2>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=igYkam7PJ1s">https://www.youtube.com/watch?v=igYkam7PJ1s</a></p>
+<h2>Introducing Stripe Payment Links</h2>
 <p>Hello, this is a walkthrough of Stripe payment links. A simple way to start accepting online payments in minutes without writing code. Choose payment links if you want to sell online without a website or accept payments in person via QR code. In this video, we&#x27;ll cover how to create a payment link, how to share it with customers or embed it with a buy button on your website, and how to configure your checkout experience with multiple payment methods.</p>
 <h2>Creating a payment link</h2>
 <p>To get started, log into your Stripe dashboard. From the dashboard sidebar, click payments, then select payment links. Then on the payment links page, click new to get started. You can choose between selling products or subscriptions at a fixed price or allow customers to choose what they pay. For this example, let&#x27;s sell a product at a fixed price. Select products or subscriptions. You can add an existing product from your catalog or create a new one. To create a new product, click plus add new product. Enter the product</p>
@@ -613,12 +622,12 @@ Get started with Stripe: https://stripe.com/register</description>
       <description>Learn how to get started with Stripe Billing, a solution that helps you launch new revenue models quickly. This video will walk you through setting up subscriptions, launching new pricing models like usage-based billing, creating and sending professional invoices, and using Stripe's recovery tools to try to recover revenue from failed payments. Get started with Stripe today to offer subscriptions, bill on usage, and generate customizable invoices.
 
 Chapters:
-00:00 Introducing Stripe Billing
-00:39 Create and manage subscriptions
-01:41 Setting up &amp; managing usage-based billing
-02:36 Create, customize, and send invoices
-03:17 Managing revenue recovery tools
-03:53 Getting started with Stripe Billing
+ Introducing Stripe Billing
+ Create and manage subscriptions
+ Setting up &amp; managing usage-based billing
+ Create, customize, and send invoices
+ Managing revenue recovery tools
+ Getting started with Stripe Billing
 
 Resources:
 https://docs.stripe.com/billing 
@@ -627,7 +636,8 @@ https://docs.stripe.com/invoicing
 https://docs.stripe.com/billing/subscriptions/usage-based 
 
 Get started with Stripe: https://stripe.com/register</description>
-      <content:encoded><![CDATA[<h2>Introducing Stripe Billing</h2>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=C0JucAziA2o">https://www.youtube.com/watch?v=C0JucAziA2o</a></p>
+<h2>Introducing Stripe Billing</h2>
 <p>Hello, this is a walkthrough of Stripe billing, a solution that helps you launch any revenue model quickly. Use billing if you offer subscriptions, bill on usage, or need to generate invoices. In this video, we&#x27;ll cover how to set up subscriptions and usage based pricing, how to create and send professional invoices, and how to try to recover revenue from failed payments using Stripe Billings recovery tools. This video is forformational purposes only and shows one example of a configuration. Your configuration might require additional steps depending on</p>
 <p>your region and local regulations. Let&#x27;s get started. Stripe billing lets you</p>
 <h2>Create and manage subscriptions</h2>
@@ -651,7 +661,8 @@ Get started with Stripe: https://stripe.com/register</description>
       <title>Companies applying emerging technologies to lesser known frontiers</title>
       <link>https://www.youtube.com/watch?v=HnzbIL-huR4</link>
       <description>Our users are bringing new technology, standards, and opportunity to every industry. We spoke with Lucid Bots, who save lives by building cleaning robots, or Archistar, who are using AI to speed up property planning applications by 50%, or Katalyst, who build fitness techwear that intensifies your training 6x. We also spoke to pioneers in their industries like Playdate, Atomic Industries, Light, Sorcerer, and Masquerade, who are innovating in some of the lesser known frontiers.</description>
-      <content:encoded><![CDATA[<h2>Transcript</h2>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=HnzbIL-huR4">https://www.youtube.com/watch?v=HnzbIL-huR4</a></p>
+<h2>Transcript</h2>
 <p>In the year 2025 Playdate is very different than anything else that exists out there. Video game hardware projects? Kind of uncharted territory. Rocketry and aerospace engineering became a thing. Why did we not elevate manufacturing to that same plane of existence? The skill that we needed to actually make things is almost completely depleted. What we&#x27;re trying to do here is actually preserve very precious trade skill and ultimately scale it. There&#x27;s not a lot of software being developed around power and utilities. We&#x27;re hoping to build the tools and the critical infrastructure</p>
 <p>that the entire grid needs in order to operate in this new world. This is a unique product that doesn&#x27;t really fit into any existing category. In 20 minutes you&#x27;re getting a workout that&#x27;s like two hours of an intense gym workout. It&#x27;s doing the workout to my body and that&#x27;s really different from anything I&#x27;ve seen over the last 40 years. When people talk about permitting, it sounds simple. Design your building. Get your permit. Proceed. In reality, that permitting process can take longer than actually building the house. We built the Archistar platform to generate building designs</p>
 <p>that comply with the local city rules. And that has never happened before. Every four days somebody passes away cleaning a building in the United States. So we started with building a drone that can clean buildings. We&#x27;ve had to solve problems that others haven&#x27;t addressed. How do we get a drone to fly with stability in the most complicated environments where most drones quite simply can&#x27;t? Weather forecasting was one of the first fundamental problems that humans have tried to solve with technology. The ways in which we collect that data hasn’t changed much since the eighties. Masquerade is an original show inspired by Phantom of the Opera</p>
@@ -672,7 +683,8 @@ Get started with Stripe: https://stripe.com/register</description>
 Fingal’s craft is an example of tacit knowledge: expertise that develops through repetition and proximity to other makers. In an era of AI-generated output, his knives show what machines still struggle to replicate: judgment shaped by experience, care, and embodied understanding. Tacit is a series about that kind of mastery, and why it matters.
 
 Learn more about Tacit, a mini-documentary series from Stripe Press about mastery and the value of craft: https://stripe.press/tacit</description>
-      <content:encoded><![CDATA[<h2>Transcript</h2>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=eD1bI4LGobw">https://www.youtube.com/watch?v=eD1bI4LGobw</a></p>
+<h2>Transcript</h2>
 <p>The biggest honor there is as a knife maker is to actually see some guy who bought your knife. And you see years later you go back there and you see the worn used handle and the blade from sharpening. Out of all the knives there it was one being used. And that&#x27;s a beat your chest moment. The Fergusons make</p>
 <p>Gubbeen cheese in the townland of Gubbeen in West Cork in Ireland. My name is Fingal Ferguson. I&#x27;m the fifth generation on the farm. On my father&#x27;s side a long line of farmers. And my mom&#x27;s side is probably more of an interested one of more worldliness. Dad has a security and amazing steadfast way of being so efficient and logical in such a casual way. And mom was so creative</p>
 <p>and quite brilliant and such a strong character. My sister Clovis I jokingly refer to her as the white witch of Gubbeen. She can heal you through food. I have kids. I want them to be proud of where they grew up and what they do. And you know one of the Fergusons being me also happens to make knives. As a butcher</p>
@@ -701,7 +713,8 @@ Perfumery is a field built almost entirely on tacit knowledge. While formulas an
 Christophe’s work shows how mastery emerges through sustained engagement with complex systems. Tacit is a series about that kind of mastery, and why it matters.
 
 Learn more about Tacit, a mini-documentary series from Stripe Press about mastery and the value of craft: https://stripe.press/tacit</description>
-      <content:encoded><![CDATA[<h2>Transcript</h2>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=DwyOvhRIpu4">https://www.youtube.com/watch?v=DwyOvhRIpu4</a></p>
+<h2>Transcript</h2>
 <p>I want you to make me a fragrance that evokes fear. So fear. I think I would do something very electric like before the storm. We can do that in perfumery. We have molecules to do that. And even certain naturals like chamomile blue has this uncomfortable feeling of a very raw rubber, even. And, uh I think I would put some wet stones, like in a dungeon or in a medieval torture room.</p>
 <p>Not that I know that, but- And, uh what would I put? I would put something a little dry a little mossy maybe. Certainly musty and something very unpleasant. So a clash. So in perfumery, how would I do a clash? Maybe patchouli with very wet or very dry notes. So you have the wetness, mossiness from the stones, like in an old cemetery, and then you would have</p>
 <p>something very dry. And it&#x27;s very unsettling actually for people. And we can do both. Oh look, this is the store. Do you like the store? Yeah. And look, what is this? I&#x27;m Christophe Laudamiel. I&#x27;m a master perfumer. For me, I&#x27;m actually better with things that have a lot of personality and things that people want to make a mark on the market.</p>
@@ -744,18 +757,19 @@ Apple Podcasts: https://podcasts.apple.com/us/podcast/cheeky-pint/id1821055332
 Substack: https://cheekypint.substack.com/
 
 Key moments
-00:00:20 Visiting Taiwan
-00:04:59 Aggregation and AI
-00:23:53 TikTok/Bytedance
-00:29:58 Aggregation and AI redux
-00:35:31 Agentic commerce
-00:45:08 Is SaaS canceled?
-00:52:21 Stratechery
-01:03:36 How Ben uses AI
-01:06:06 The TSMC break
-01:13:53 Rapid fire
-01:20:53 Feedback on Stripe</description>
-      <content:encoded><![CDATA[<h2>&lt;Untitled Chapter 1&gt;</h2>
+ Visiting Taiwan
+ Aggregation and AI
+ TikTok/Bytedance
+ Aggregation and AI redux
+ Agentic commerce
+ Is SaaS canceled?
+ Stratechery
+ How Ben uses AI
+ The TSMC break
+ Rapid fire
+ Feedback on Stripe</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=oUSWtLu2RCE">https://www.youtube.com/watch?v=oUSWtLu2RCE</a></p>
+<h2>&lt;Untitled Chapter 1&gt;</h2>
 <p>Ben Thompson is the founder and author of Strategy, the newsletter that everyone in tech reads to make sense of what&#x27;s happening. He&#x27;s also heirly to the premium newsletter model that&#x27;s become very popular in media nowadays. For many years, he ran Strategy as a solo founder in Taiwan. Cheers. Good to see you. Cheers.</p>
 <h2>Visiting Taiwan</h2>
 <p>&gt;&gt; It feels like people in San Francisco have not properly discovered Taiwan as a tourist destination. Like, do you agree with that characterization? What&#x27;s your recommendation? People always ask me about Asia and the way the way I always characterize Taiwan is there&#x27;s lots of great places to visit in Asia &gt;&gt; and I would also put Japan on the list. But I, you know, I like to think I went to Japan before it was cool. &gt;&gt; Yeah. Nothing against Japan. It&#x27;s just &gt;&gt; Well, the whole thing with Japan is going to Japan pre-smartphone was a completely different experience than going there post smartphone. &gt;&gt; Like you think, oh, the subway system&#x27;s amazing, the trains. Try navigating that with no smartphone and nothing&#x27;s in</p>
@@ -952,17 +966,18 @@ Apple Podcasts: https://podcasts.apple.com/us/podcast/cheeky-pint/id1821055332
 Substack: https://cheekypint.substack.com/
 
 Key moments:
-00:00:21 Ramp business today
-00:04:27 The *correct* expense policy
-00:11:07 Bill Pay
-00:16:52 AI and software
-00:32:23 Stablecoin-backed cards
-00:33:06 Ramp data
-00:36:25 How to cut your expenses
-00:41:13 Ramp strategy
-00:57:08 Capital One
-01:06:34 Treasury</description>
-      <content:encoded><![CDATA[<h2>&lt;Untitled Chapter 1&gt;</h2>
+ Ramp business today
+ The *correct* expense policy
+ Bill Pay
+ AI and software
+ Stablecoin-backed cards
+ Ramp data
+ How to cut your expenses
+ Ramp strategy
+ Capital One
+ Treasury</description>
+      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=TRPCRIhrYac">https://www.youtube.com/watch?v=TRPCRIhrYac</a></p>
+<h2>&lt;Untitled Chapter 1&gt;</h2>
 <p>I don&#x27;t know if we need, if we want to do this, but— I already look like that naturally, so. Oh, this is Kevin from &quot;The Office.&quot; Yeah, yeah. Eric Glyman is the co-founder and CEO of Ramp, the corporate card and finance automation platform. Founded in 2019, Ramp has taken the industry by storm. Oh, cheers. Cheers.</p>
 <h2>Ramp business today</h2>
 <p>Can you describe maybe a good framing, just the Ramp business today? What&#x27;s the biggest part of the business in terms of where you make money? What are the new growth lines? Any metrics you can share on the scale? Alex and I have a million questions, but maybe you can start by just framing it up for us. Yeah, of course. So first, just the pace that this has come together has been pretty remarkable. Seven years, yeah. You know? I think by the time we were, six years and change, the company had passed over a billion a year in revenue. The largest portion of that is card. And so, that might be a classic</p>
@@ -1045,7 +1060,7 @@ Key moments:
 <p>What else? Next, all right, when you start to have these fine-tuned kind of controls. This part has been I think probably the biggest lion&#x27;s share of this. Let&#x27;s go back to one of the earlier conversations of why do people use checks, this horrible system and purchase orders. Well, one of the advantages of checks is unless you mail it to someone and you sign it, no money can leave your company. And what every person knows who&#x27;s ever had a credit card and gone to a gym once and had a good New Year&#x27;s resolution. But is you go a couple times</p>
 <p>and you&#x27;re like, &quot;Goddammit, this gym is charging me.&quot; The difficulty of sending a check is a feature, not a bug. Yeah, exactly. But it&#x27;s part of what Ramp was the first to build. One-time use cards. Single-use cards, but also more than that, merchant blocking. So you can, whether it&#x27;s on one card or 10,000 cards at once, build in a kill switch to say, &quot;Okay, we&#x27;ve signed this new deal with this merchant. We are only on Uber, we are no longer taking Lyfts. And anytime someone goes and tries to go on merchant A or B, you can do this.&quot; Or you sign a new contract and you say,</p>
 <p>&quot;I&#x27;m going spend $10,000 only with Salesforce and on the 10,001th dollar they try to charge you, it declines.&quot; And what gets to happen, you get to have a conversation with their sales team who really wants to make their budget. And if you look at this mathematically, for most companies that come over a low end, maybe a very hygienic company that is giving out a few cards and the old world could durably cut their expenses about 2% a year by doing this. Some of these very laissez-faire businesses are saving just 10%, just through these things. Next, you start ending up with these more fine-tuned</p>
-<p>kind of controls where you can say under these circumstances I want to go and have kind of charges occur. Maybe you have an engineer stay till 8:00 PM at night, you can go and buy a meal. But if you take an Uber on a Saturday, that should turn off. And so you have the cards, if it&#x27;s like an Uber on a Saturday auto-decline, but you can text and say actually it&#x27;s for work. You send back a yes, it turns on. And so it&#x27;s all these little tiny paper cuts that actually start to go into run. Next, it&#x27;s vendor data. One of the unique assets of Ramp is anytime you spend money, you upload a receipt,</p>
+<p>kind of controls where you can say under these circumstances I want to go and have kind of charges occur. Maybe you have an engineer stay till PM at night, you can go and buy a meal. But if you take an Uber on a Saturday, that should turn off. And so you have the cards, if it&#x27;s like an Uber on a Saturday auto-decline, but you can text and say actually it&#x27;s for work. You send back a yes, it turns on. And so it&#x27;s all these little tiny paper cuts that actually start to go into run. Next, it&#x27;s vendor data. One of the unique assets of Ramp is anytime you spend money, you upload a receipt,</p>
 <p>maybe you upload an invoice or an MSA. This takes us back to the Paribus days. We know across hundreds of millions of purchases every year, not just that you spent money at a software vendor, but what did you spend per seat? And so if you&#x27;re a customer on Ramp and you&#x27;re about to go and pay this large bill on a random SaaS vendor, we can show you in real-time before you send the funds, you are paying 20% more than the rest of the market. Here&#x27;s kind of the cost curve of what others are paying.</p>
 <p>And actually by going and empowering your procurement team— Do you have enough data to do that? Because my AWS bill is not like your AWS bill. And so, don&#x27;t you need to know how many instances we&#x27;re running to know if this is a good deal or not? You can, but you can still kind of get down to the level of is there a bulk discount or not? And start to know of, is there a negotiated aspect? There&#x27;s other types of things where I&#x27;d argue maybe a lot of classic software- as-a-service ends up in this way. It&#x27;s like your pricing is really dependent on, you know, did you sign that deal on January 1st</p>
 <p>or on December 31st when the sales team really needs to hit the quota. And you can actually see down to the seat level, you&#x27;re paying $30 per seat. It&#x27;s a great time to be signing a Salesforce contract. Exactly. And so you can actually get down to the seat level and say, okay, you&#x27;re about to auto-renew. The market price has actually moved for the set of service. And so it can be very, very useful to procurement teams to know where they compare with the market.</p>
@@ -1104,7 +1119,7 @@ Key moments:
 <p>on checking accounts is 0.07% in the US. And so I&#x27;m guessing you don&#x27;t believe that Bank of America and JP Morgan and all these folks will wake up more altruistic one day. And so, what is the competitive process by which you think we&#x27;ll get there? I think that new businesses, whether it&#x27;s they have their own charter or they work with banks too that, this is not a monopoly. Like they have, everyone has competitors and it is a market that evolves. I think that that rate will go up, that the easier it is for people to,</p>
 <p>whether it&#x27;s to create depository institutions, create accounts at these institutions, or create stores of value maybe even outside of these systems, maybe in a stable currency. And so, I think that rate goes up. I think part of what&#x27;s driven the extremely rapid growth of Ramp Treasury is it&#x27;s just a vastly better deal for customers. Maybe you keep three months of just walking around money in your checking account, but if you know the funds you&#x27;re going to receive and what you&#x27;re paying out,</p>
 <p>well, we can move funds on the day payroll is coming due into that account and then every other day make sure the funds are earning the highest rate possible. And so, I think from a macro perspective, these things tend to go up in terms of the relative yield. I think there&#x27;s another question of slack in the system. If you have more and more... Money can think, right? If the dollars in your company have some level of intelligence like it&#x27;s able to kind of determine</p>
-<p>when can it be spent, under what circumstances? It&#x27;s increasingly recorded in real time and there&#x27;s some reasoning around this, some ability to kind of opine of where should the next marginal dollar go? And you have systems that are able to think infinitely about these things even at 3:00 AM in the morning when most of your team is asleep. Well, once you determine, like maybe you&#x27;ll determine I should keep the funds in some level in like a 2% or a 4% yielding account. But I think more of those dollars will go in flight actually to go spend to, if you have a business</p>
+<p>when can it be spent, under what circumstances? It&#x27;s increasingly recorded in real time and there&#x27;s some reasoning around this, some ability to kind of opine of where should the next marginal dollar go? And you have systems that are able to think infinitely about these things even at AM in the morning when most of your team is asleep. Well, once you determine, like maybe you&#x27;ll determine I should keep the funds in some level in like a 2% or a 4% yielding account. But I think more of those dollars will go in flight actually to go spend to, if you have a business</p>
 <p>that makes an 8% profit margin a year, that&#x27;s a lot higher than what you can earn in the overnight rate. And so in some sense, I think you have the dual effect. Smarter capital allocation. I think more dollars will be put to work. I agree with Alex&#x27;s macro point of if you kind of understand counterparties, you understand more information. I think that one, the cost of financing should go down and I think more dollars should be in the system in some sense. It&#x27;s actually a waste for everyone to have your dollars just sitting in a bank account. Who does that benefit? But it goes back to your time point. And it&#x27;s like the reason why I got mad at Chase a while ago,</p>
 <p>and I still have a Chase account. And like why is that? It&#x27;s like I have a life insurance policy. I don&#x27;t remember the login for it. It&#x27;s just too much work. I wrote, this is a true story. Isn&#x27;t this an issue if you die? Yeah, I mean. Well, but they&#x27;ll pay my wife. I just don&#x27;t know how to log in and change the bank account. So, they&#x27;ll send her a nice letter I&#x27;m sure, some flowers. But, you know, why... Well actually, this is a true story. I wrote a check for somebody&#x27;s bar mitzvah. Mazel tov. Has not been deposited. Do I want to be the schmuck who has the bounced check? No, I don&#x27;t. So it&#x27;s like I have to—</p>
 <p>This kid is keeping you at Chase. Well, great to see you. You too. Eric, thank you. Thanks for the Guinness. It was a great time.</p>]]></content:encoded>
