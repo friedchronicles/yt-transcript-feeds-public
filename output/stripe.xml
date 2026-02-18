@@ -8,22 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Feb 2026 18:56:37 +0000</lastBuildDate>
-    <item>
-      <title>Turning ideas into reality with Figma</title>
-      <link>https://www.youtube.com/watch?v=uCw6JIryJL0</link>
-      <description>Figma democratizes design through its collaborative design products. It evolved from a design tool into an AI-powered platform when doubling its products in May 2025. In doing so, it helps teams go from idea to shipped product faster than ever before.
-
-Learn more about Figma: http://stripe.com/customers/figma</description>
-      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=uCw6JIryJL0">https://www.youtube.com/watch?v=uCw6JIryJL0</a></p>
-<h2>Transcript</h2>
-<p>Figma is a design tool that helps people bring their ideas out of their head and get them into the world. We want you to be able to get in there and design what you want. We cater to a lot of different people, a lot of different sizes of organizations and teams. Designing beautiful products and just making the world a more well-designed place is what Figma is trying to do. One of the things I love most about Figma is similar to one of the things I love most about Stripe, which is the focus on craft. We care about quality, we care about simplicity.</p>
-<p>With Stripe, we have the ability to meet customers where they are. To charge them in their local payment methods and in their local currency. About 85% of our users are based outside the US. We have so much that we want to do, especially in terms of how our customers access Figma, how they get value out of Figma. We went from four products to eight. We introduced new tools for AI. Stripe is really meant to serve businesses from that initial moment where they have a single product all the way to when they&#x27;re scaling. It was really important for us</p>
-<p>when we were redoing our billing model that it was more transparent, simple and easy to understand for our customers. In the future, we want to be able to look at things like usage-based billing or other ways of billing our customers. We&#x27;re able to know that Stripe is going to be ready to support us as we ship different types of products that just have completely different monetization needs. I think that is really empowering to be able to keep your main thing the main thing, right? Keep your focus on what you&#x27;re building</p>
-<p>and just depend on Stripe to handle payments, invoicing, compliance. I definitely don&#x27;t think we would have been able to move at the speed that we did without Stripe. Stripe got into the details with us and that kind of felt like, you know, we depend on Stripe, but also Stripe is depending on our feedback to make the best product possible for everyone. And that kind of partnership, you just don&#x27;t get to see it much.</p>]]></content:encoded>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=uCw6JIryJL0</guid>
-      <pubDate>Wed, 12 Nov 2025 17:18:54 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 18 Feb 2026 19:51:00 +0000</lastBuildDate>
     <item>
       <title>Reinventing reimbursement for pet health insurance</title>
       <link>https://www.youtube.com/watch?v=d6AXruG-fxc</link>
@@ -1125,6 +1110,26 @@ Key moments:
 <p>This kid is keeping you at Chase. Well, great to see you. You too. Eric, thank you. Thanks for the Guinness. It was a great time.</p>]]></content:encoded>
       <guid isPermaLink="false">https://www.youtube.com/watch?v=TRPCRIhrYac</guid>
       <pubDate>Tue, 17 Feb 2026 09:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build a custom payment flow with Stripe Elements</title>
+      <link>https://www.youtube.com/watch?v=x5TJcMg2Aws</link>
+      <description>Learn how to set up Stripe Elements, a collection of pre-built UI components that enable a customized, conversion-optimized payment experience that matches your website or mobile app. This video will walk you through the different customizable UI components, features to help you increase conversion, advanced controls for tailoring the payment experience, and how to get started with your integration. Get started with Stripe today to build your ideal payment experience and start accepting online payments. 
+
+Chapters:
+ Elements introduction
+ Understanding Elements
+ Advanced controls
+ Getting started
+
+Resources: 
+https://docs.stripe.com/payments/elements 
+https://docs.stripe.com/payments/quickstart-checkout-sessions 
+
+Get started with Stripe: https://stripe.com/register</description>
+      <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=x5TJcMg2Aws</guid>
+      <pubDate>Wed, 18 Feb 2026 19:32:40 +0000</pubDate>
     </item>
   </channel>
 </rss>
