@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Fetch YouTube channel videos, grab transcripts, and generate RSS feeds."""
 
+import argparse
+import html
 import json
 import logging
 import os
@@ -171,50 +173,91 @@ def fetch_transcript(video_id: str) -> list[dict] | None:
         return None
 
 
-def format_transcript_html(segments: list[dict]) -> str:
-    """Format transcript segments into readable HTML paragraphs.
+def fetch_video_chapters(video_link: str) -> list[dict]:
+    """Fetch chapter metadata using yt-dlp. Returns empty list if unavailable."""
+    try:
+        raw = subprocess.check_output(
+            ["yt-dlp", "--dump-single-json", "--no-warnings", video_link],
+            text=True,
+        )
+        data = json.loads(raw)
+        chapters = data.get("chapters") or []
+        clean = []
+        for ch in chapters:
+            title = (ch.get("title") or "").strip()
+            start = float(ch.get("start_time", 0.0))
+            end = ch.get("end_time")
+            end = float(end) if end is not None else None
+            if title:
+                clean.append({"title": title, "start_time": start, "end_time": end})
+        return clean
+    except Exception:
+        return []
 
-    Groups segments into ~30-second chunks for paragraphs.
-    Adds timestamp markers every ~3 minutes for navigation.
-    """
-    if not segments:
-        return "<p><em>No transcript available.</em></p>"
 
-    html_parts = []
-    current_paragraph = []
-    paragraph_start_time = 0.0
-    last_timestamp_marker = -180.0  # Start so first marker shows at 0:00
-
+def _clean_segments(segments: list[dict]) -> list[dict]:
+    cleaned = []
+    prev = None
     for seg in segments:
-        start = seg["start"]
-        text = seg["text"].strip()
+        text = " ".join((seg.get("text") or "").strip().split())
         if not text:
             continue
+        start = float(seg.get("start", 0.0))
+        if prev == text:
+            continue
+        cleaned.append({"text": text, "start": start})
+        prev = text
+    return cleaned
 
-        # Add timestamp marker every ~3 minutes
-        if start - last_timestamp_marker >= 180.0:
-            if current_paragraph:
-                html_parts.append("<p>" + " ".join(current_paragraph) + "</p>")
-                current_paragraph = []
-            minutes = int(start) // 60
-            seconds = int(start) % 60
-            marker = f"<p><strong>[{minutes:02d}:{seconds:02d}]</strong></p>"
-            html_parts.append(marker)
-            last_timestamp_marker = start
-            paragraph_start_time = start
 
-        current_paragraph.append(text)
+def _format_section_paragraphs(segments: list[dict], window_sec: float = 30.0) -> list[str]:
+    parts = []
+    buf = []
+    start_anchor = None
+    for seg in segments:
+        if start_anchor is None:
+            start_anchor = seg["start"]
+        buf.append(html.escape(seg["text"]))
+        if seg["start"] - start_anchor >= window_sec:
+            parts.append("<p>" + " ".join(buf) + "</p>")
+            buf = []
+            start_anchor = None
+    if buf:
+        parts.append("<p>" + " ".join(buf) + "</p>")
+    return parts
 
-        # Start new paragraph every ~30 seconds
-        if start - paragraph_start_time >= 30.0:
-            html_parts.append("<p>" + " ".join(current_paragraph) + "</p>")
-            current_paragraph = []
-            paragraph_start_time = start
 
-    # Flush remaining
-    if current_paragraph:
-        html_parts.append("<p>" + " ".join(current_paragraph) + "</p>")
+def format_transcript_html(segments: list[dict], chapters: list[dict]) -> str:
+    """Format transcript into sectioned HTML using chapter titles when available."""
+    cleaned = _clean_segments(segments)
+    if not cleaned:
+        return "<p><em>No transcript available.</em></p>"
 
+    if not chapters:
+        paras = _format_section_paragraphs(cleaned)
+        return "<h2>Transcript</h2>\n" + "\n".join(paras)
+
+    html_parts = []
+    for idx, ch in enumerate(chapters):
+        section_title = html.escape(ch["title"])
+        start = float(ch.get("start_time", 0.0))
+        end = ch.get("end_time")
+        if end is None:
+            if idx + 1 < len(chapters):
+                end = float(chapters[idx + 1].get("start_time", 10**12))
+            else:
+                end = 10**12
+        else:
+            end = float(end)
+        section_segments = [s for s in cleaned if start <= s["start"] < end]
+        if not section_segments:
+            continue
+        html_parts.append(f"<h2>{section_title}</h2>")
+        html_parts.extend(_format_section_paragraphs(section_segments))
+
+    if not html_parts:
+        paras = _format_section_paragraphs(cleaned)
+        return "<h2>Transcript</h2>\n" + "\n".join(paras)
     return "\n".join(html_parts)
 
 
@@ -313,8 +356,13 @@ def process_channel(channel: dict, seen: dict, cleanup_state: dict, settings: di
             videos_with_transcripts.append(entry)
             new_count += 1
         else:
-            transcript_html = format_transcript_html(segments)
-            entry = {**video, "transcript_html": transcript_html}
+            chapters = fetch_video_chapters(video["link"])
+            transcript_html = format_transcript_html(segments, chapters)
+            entry = {
+                **video,
+                "transcript_html": transcript_html,
+                "chapters_count": len(chapters),
+            }
             if should_run_cleanup(video, settings, cleanup_state):
                 entry["transcript_html"] = maybe_run_cleanup(entry, settings)
                 entry["cleanup_applied"] = True
@@ -348,7 +396,42 @@ def process_channel(channel: dict, seen: dict, cleanup_state: dict, settings: di
     return seen, cleanup_state
 
 
+def rebuild_cached_transcripts(data_dir: Path, delay_sec: float = 1.0):
+    """Rebuild existing cached transcript HTML with section headings."""
+    files = sorted(data_dir.glob("transcript_*.json"))
+    if not files:
+        log.info("No cached transcript files found to rebuild.")
+        return
+    log.info("Rebuilding %d cached transcript files with chapter sections...", len(files))
+    for idx, path in enumerate(files, start=1):
+        try:
+            with open(path) as f:
+                entry = json.load(f)
+            video_id = entry.get("video_id")
+            link = entry.get("link")
+            if not video_id or not link:
+                continue
+            segments = fetch_transcript(video_id)
+            if not segments:
+                entry["transcript_html"] = "<p><em>No transcript available for this video.</em></p>"
+                entry["chapters_count"] = 0
+            else:
+                chapters = fetch_video_chapters(link)
+                entry["transcript_html"] = format_transcript_html(segments, chapters)
+                entry["chapters_count"] = len(chapters)
+            with open(path, "w") as f:
+                json.dump(entry, f)
+            log.info("Rebuilt %d/%d: %s (chapters=%d)", idx, len(files), video_id, entry.get("chapters_count", 0))
+        except Exception:
+            log.exception("Failed rebuilding cache file %s", path)
+        time.sleep(delay_sec)
+
+
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--rebuild-cache", action="store_true", help="Rebuild existing cached transcript HTML with chapter sections")
+    args = parser.parse_args()
+
     log.info("=== Starting fetch_feeds run ===")
     config = load_config()
     settings = config["settings"]
@@ -367,6 +450,9 @@ def main():
         configured_cutoff = settings.get("cleanup_cutoff_utc", "").strip()
         cleanup_state["cutoff_utc"] = configured_cutoff or utc_now_iso()
         log.info("Initialized cleanup cutoff: %s", cleanup_state["cutoff_utc"])
+
+    if args.rebuild_cache:
+        rebuild_cached_transcripts(data_dir, delay_sec=settings.get("rebuild_delay_sec", 0.25))
 
     for channel in config["channels"]:
         try:
