@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.yt-transcripts.fetch</string>
+    <key>Program</key>
+    <string>/bin/bash</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>bash</string>
+        <string>-c</string>
+        <string>cd '/Users/sharddha/Desktop/dump/Build with AI - Work/yt-transcript-feeds' &amp;&amp; exec .venv/bin/python fetch_feeds.py</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/sharddha/Desktop/dump/Build with AI - Work/yt-transcript-feeds</string>
+    <key>StartInterval</key>
+    <integer>1800</integer>
+    <key>StandardOutPath</key>
+    <string>/Users/sharddha/Desktop/dump/Build with AI - Work/yt-transcript-feeds/logs/fetch_stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/sharddha/Desktop/dump/Build with AI - Work/yt-transcript-feeds/logs/fetch_stderr.log</string>
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>

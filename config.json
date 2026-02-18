@@ -1,0 +1,48 @@
+{
+  "channels": [
+    {
+      "name": "Stripe (Ben Thompson)",
+      "slug": "stripe",
+      "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ"
+    },
+    {
+      "name": "Cal Newport",
+      "slug": "cal-newport",
+      "channel_id": "UCIhJnsJ0IHlVNnYfp-gw_5Q"
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "slug": "dwarkesh-patel",
+      "channel_id": "UCZa18YV7qayTh-MRIrBhDpA"
+    },
+    {
+      "name": "Prof G Pod (Scott Galloway)",
+      "slug": "prof-g-pod",
+      "channel_id": "UCcvDWzvxz6Kn1iPQHMl2teA"
+    },
+    {
+      "name": "Latent Space",
+      "slug": "latent-space",
+      "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ"
+    },
+    {
+      "name": "Oxide Computer Company",
+      "slug": "oxide-and-friends",
+      "channel_id": "UCFn4S3OexFT9YhxJ8GWdUYQ",
+      "include_title_prefixes": [
+        "Oxide and Friends"
+      ]
+    }
+  ],
+  "settings": {
+    "output_dir": "output",
+    "data_dir": "data",
+    "max_videos_per_channel": 15,
+    "port": 8888,
+    "public_base_url": "https://friedchronicles.github.io/yt-transcript-feeds-public",
+    "enable_cleanup": false,
+    "cleanup_only_new_videos": true,
+    "cleanup_cutoff_utc": "",
+    "cleanup_command": ""
+  }
+}
