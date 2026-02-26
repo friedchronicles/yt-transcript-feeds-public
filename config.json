@@ -40,9 +40,9 @@
     "max_videos_per_channel": 15,
     "port": 8888,
     "public_base_url": "https://friedchronicles.github.io/yt-transcript-feeds-public",
-    "enable_cleanup": false,
+    "enable_cleanup": true,
     "cleanup_only_new_videos": true,
     "cleanup_cutoff_utc": "",
-    "cleanup_command": ""
+    "cleanup_model": "gemini-3-flash-preview"
   }
 }

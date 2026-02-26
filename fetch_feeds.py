@@ -15,6 +15,7 @@ from pathlib import Path
 
 import feedparser
 from feedgen.feed import FeedGenerator
+from google import genai
 from youtube_transcript_api import YouTubeTranscriptApi
 
 # Setup paths relative to this script
@@ -100,29 +101,42 @@ def should_run_cleanup(video: dict, settings: dict, cleanup_state: dict) -> bool
     return published > cutoff
 
 
+_CLEANUP_PROMPT = """\
+You are a transcript editor. Edit the following YouTube video transcript HTML \
+for readability. Make only minor edits: fix punctuation, capitalisation, and \
+sentence boundaries so it reads naturally. Do NOT change wording, remove \
+content, add commentary, or alter the HTML tags/structure. Return only the \
+edited HTML, nothing else.\
+"""
+
+
+def _get_gemini_client() -> genai.Client | None:
+    api_key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if not api_key:
+        return None
+    return genai.Client(api_key=api_key)
+
+
 def maybe_run_cleanup(entry: dict, settings: dict) -> str:
-    """Optionally run external cleanup command on transcript HTML.
+    """Send transcript HTML to Gemini for minor readability edits."""
+    transcript_html = entry["transcript_html"]
 
-    The command receives JSON on stdin and must return cleaned HTML on stdout.
-    """
-    command = settings.get("cleanup_command", "").strip()
-    if not command:
-        return entry["transcript_html"]
+    client = _get_gemini_client()
+    if client is None:
+        log.warning("GEMINI_API_KEY not set — skipping cleanup for %s", entry["video_id"])
+        return transcript_html
 
-    payload = json.dumps(entry).encode("utf-8")
-    proc = subprocess.run(
-        command,
-        input=payload,
-        capture_output=True,
-        shell=True,
-        check=False,
-    )
-    if proc.returncode != 0:
-        log.warning("Cleanup command failed for %s: %s", entry["video_id"], proc.stderr.decode("utf-8", errors="replace"))
-        return entry["transcript_html"]
-
-    cleaned = proc.stdout.decode("utf-8", errors="replace").strip()
-    return cleaned or entry["transcript_html"]
+    model = settings.get("cleanup_model", "gemini-3-flash-preview")
+    try:
+        response = client.models.generate_content(
+            model=model,
+            contents=f"{_CLEANUP_PROMPT}\n\n{transcript_html}",
+        )
+        cleaned = response.text.strip()
+        return cleaned or transcript_html
+    except Exception as e:
+        log.warning("Gemini cleanup failed for %s: %s", entry["video_id"], e)
+        return transcript_html
 
 
 def fetch_channel_feed(channel_id: str) -> list[dict]:
