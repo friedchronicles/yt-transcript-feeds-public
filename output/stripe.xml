@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Feb 2026 20:50:47 +0000</lastBuildDate>
-    <item>
-      <title>Easily accept online payments with Stripe Checkout</title>
-      <link>https://www.youtube.com/watch?v=_7Au6p2PZVg</link>
-      <description>Learn how to set up Stripe Checkout, a prebuilt payment page that helps you quickly accept online payments. This video will walk you through how Stripe Checkout works, how to choose between Stripe-hosted and embedded Checkout, how to add features that boost conversion rates, and developer resources. Get started with Stripe today to accept online payments with a conversion-optimized payment form. 
-
-Chapters:
- Checkout introduction
- Understanding Checkout
- Optimizing for conversion
- Developer resources
-
-Resources: 
-https://docs.stripe.com/payments/checkout 
-https://docs.stripe.com/checkout/quickstart 
-
-Get started with Stripe: https://stripe.com/register</description>
-      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=_7Au6p2PZVg">https://www.youtube.com/watch?v=_7Au6p2PZVg</a></p>
-<h2>Checkout introduction</h2>
-<p>Hello, this is a walkthrough of Stripe Checkout, a pre-built payment page that helps you quickly accept online payments. Whether you&#x27;re selling products, subscriptions, or services, Checkout makes it easy to convert more customers with a payment experience that&#x27;s optimized for conversion, security, and ease of use. In this video, we&#x27;ll cover how Stripe Checkout works, how to choose between Stripe hosted and embedded Checkout, how to add features that boost your conversion rates, and developer resources. Let&#x27;s</p>
-<h2>Understanding Checkout</h2>
-<p>get started. Stripe Checkout is a pre-built payment form that&#x27;s designed to convert more customers and reduce development time. Stripe offers two ways to integrate checkout, hosted and embedded. With hosted checkout, [music] customers complete payment on a page hosted by Stripe. Just redirect your customer to the checkout URL and Stripe handles the rest, including security compliance and optimized payment flows. [music] This is the simplest option with minimal code required. With embedded checkout, the payment form appears directly on your website, giving you more control</p>
-<p>over the customer experience.</p>
-<h2>Optimizing for conversion</h2>
-<p>Whether you use hosted or embedded, Checkout uses AI models to dynamically surface the most relevant payment methods based on many onsession signals [music] such as popularity among other customers, as well as showing prices in their local currency. Checkout also handles tax collection, supports subscriptions, and can be customized with your branding.</p>
-<h2>Developer resources</h2>
-<p>Let&#x27;s walk through how to start integrating with Checkout. All Checkout integrations use the Checkout Sessions API to create payment pages. If you want to use Stripe Hosted Checkout, add an endpoint on your server that creates a checkout session on your website. Add a button that calls your server endpoint and redirects your customers to the Stripe hosted payment page. Your customers complete payment on Stripe secure page and are then redirected back to your site. For embedded checkout, which appears directly on your website, you&#x27;ll use the</p>
-<p>checkout sessions API to also create an embedded form. [music] If you don&#x27;t want to start from scratch, you have two options. Quick starts located in Stripe docs are full working code samples of checkout integrations [music] in various front-end and backend languages. Simply select your preferred language [music] and follow the step-by-step guide that combines both server and client implementation. Then download a full sample app or install the Stripe VS Code extension to get step-by-step help from our AI assistant as you add the integration to your codebase.</p>
-<p>Or you can start with sample projects that demonstrate checkout in real world scenarios. These samples include complete [music] applications for both hosted and embedded checkout with source code available on GitHub that you can clone and customize. Whichever way you choose to get started, Stripe provides developer tools such as the Stripe CLI and Workbench. These tools help you test the [music] complete payment flow, including successful payments and handling postpayment events. That&#x27;s an overview of Stripe Checkout, a powerful, flexible way to accept</p>
-<p>payments online. Create an account or log in to get started.</p>]]></content:encoded>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=_7Au6p2PZVg</guid>
-      <pubDate>Wed, 10 Dec 2025 18:18:14 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 26 Feb 2026 21:33:39 +0000</lastBuildDate>
     <item>
       <title>No-code: Sell and get paid online without a website</title>
       <link>https://www.youtube.com/watch?v=igYkam7PJ1s</link>
@@ -736,6 +704,13 @@ Key moments
       <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
       <guid isPermaLink="false">https://www.youtube.com/watch?v=qvrdCpLPbuQ</guid>
       <pubDate>Thu, 26 Feb 2026 13:08:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why GPUs are better for AI</title>
+      <link>https://www.youtube.com/shorts/t_OgYDljhzE</link>
+      <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
+      <guid isPermaLink="false">https://www.youtube.com/shorts/t_OgYDljhzE</guid>
+      <pubDate>Thu, 26 Feb 2026 21:20:03 +0000</pubDate>
     </item>
   </channel>
 </rss>
