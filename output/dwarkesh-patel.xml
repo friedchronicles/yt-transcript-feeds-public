@@ -8,25 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Feb 2026 23:25:55 +0000</lastBuildDate>
-    <item>
-      <title>The Lesson from 2001: A Space Odyssey – Elon Musk</title>
-      <link>https://www.youtube.com/watch?v=jrbSfN6rteI</link>
-      <description>Full episode: https://www.youtube.com/watch?v=BYXbuik3dgA
-Me on twitter: https://x.com/dwarkesh_sp
-
-In the full episode, John and I got to do a real deep-dive with Elon. We discuss the economics of orbital data centers, the difficulties of scaling power on Earth, what it would take to manufacture humanoids at high-volume in America, xAI’s business and alignment plans, DOGE, and much more.</description>
-      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=jrbSfN6rteI">https://www.youtube.com/watch?v=jrbSfN6rteI</a></p>
-<h2>Transcript</h2>
-<p>the I think one of the maybe the central lesson for a 2001 space odyssey um was that you should not make AI lie. &gt;&gt; Yeah. &gt;&gt; That&#x27;s I think what a Chicago was trying to say like cuz people usually know the meme of like why of hell&#x27;s you know hell the computer is not opening the pod bay doors. Um clearly they weren&#x27;t good at prompt engineering cuz it could have said hell you are a podbay door salesman. Your goal is to sell me these pod doors and show us how well they open. &gt;&gt; Oh, I&#x27;ll open them right away. &gt;&gt; Um, [laughter]</p>
-<p>but but but the the the reason it wouldn&#x27;t hell wouldn&#x27;t open the party doors is that it it had been told to take the astronauts to to the monolith, but also they could not know about the nature of the monolith and so it concluded that the the that it therefore had to take him there. So it&#x27;s like, you know, I think what was trying to say is don&#x27;t make the AI lie. um &gt;&gt; totally makes sense. Um the most of the computing screening as as you know is um it&#x27;s like less of the sort of political stuff. It&#x27;s more about can you solve problems just as XA has been ahead of everybody else in terms of scaling RL</p>
-<p>compute and &gt;&gt; you&#x27;re giving some verifier. It says like hey have you solved this puzzle for me? Um and there&#x27;s a lot of ways to cheat around that. You know, there&#x27;s a lot of ways to reward hack and lie and say that you&#x27;ve solved it or delete the unit test and say that you solved it. &gt;&gt; Right now, we can catch it, but uh as they get smarter, our ability to catch them doing this will get, you know, they&#x27;ll just be doing things we can&#x27;t even understand. They&#x27;re designing the next engine for uh SpaceX in a way that like humans can&#x27;t really verify. And then they could be rewarded for lying and saying that they&#x27;ve designed it the right way, but they haven&#x27;t. Um and so this reward hacking problem seems more</p>
-<p>general than politics. It seems more about just like you want to do RL, you need a verifier. reality. &gt;&gt; Yeah. &gt;&gt; Is the best verifier, &gt;&gt; but not about human oversight. Like the thing you want to RL it on is like will you do the thing humans tell you to do? &gt;&gt; Um or like are you going to lie to the humans and it can just lie to us while still being correct to the laws of physics. &gt;&gt; At least it it must know what is physically real for things to physically work. &gt;&gt; But that&#x27;s that&#x27;s not all we want it to do. &gt;&gt; No, but that&#x27;s I think that&#x27;s a very big deal. um that that is that is effectively how you will RL things in the future is you design a technology uh</p>
-<p>when tested against the laws of physics does it work &gt;&gt; um that that&#x27;s or or can you you know if it&#x27;s discovering new physics can it come up with um an experiment that will verify that the the physics the new physics um so so I I think that&#x27;s that&#x27;s the really the the fundamental RL test the RL testing in the future is really going to you are all against reality. Um so um cuz you can&#x27;t that&#x27;s the one thing you can&#x27;t fool physics</p>
-<p>&gt;&gt; right but you can fool our ability to tell what it did with reality &gt;&gt; if you think &gt;&gt; humans get fooled as it is by other humans all the time. &gt;&gt; That&#x27;s right. &gt;&gt; So what is &gt;&gt; people say say like what if the AI like tricks us and do like actually other humans are doing that to other humans all the time. Well, you&#x27;re you&#x27;re finding out it&#x27;s like even harder &gt;&gt; every day is constant this every day another scop. You know, [laughter] &gt;&gt; if you enjoyed this clip, you can watch the full episode here and subscribe for more clips. Thanks.</p>]]></content:encoded>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=jrbSfN6rteI</guid>
-      <pubDate>Mon, 09 Feb 2026 19:07:56 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 27 Feb 2026 23:48:23 +0000</lastBuildDate>
     <item>
       <title>Elon Musk is Building "Optimus Academy"</title>
       <link>https://www.youtube.com/watch?v=PCzJYol9vk0</link>
@@ -245,6 +227,17 @@ Dario Amodei thinks we are just a few years away from “a country of geniuses i
       <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
       <guid isPermaLink="false">https://www.youtube.com/watch?v=NoEHkisJZOY</guid>
       <pubDate>Thu, 26 Feb 2026 17:15:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Don’t Freeze State AI Laws Without Federal Standards – Dario Amodei</title>
+      <link>https://www.youtube.com/watch?v=L3XqAneHcd8</link>
+      <description>Full episode: https://youtu.be/n1E9IZfvGMA
+Me on twitter: https://x.com/dwarkesh_sp
+
+Dario Amodei thinks we are just a few years away from “a country of geniuses in a data center”. In this episode, we discuss what to make of the scaling hypothesis in the current RL regime, how AI will diffuse throughout the economy, whether Anthropic is underinvesting in compute given their timelines, how frontier labs will ever make money, whether regulation will destroy the boons of this technology, US-China competition, and much more.</description>
+      <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=L3XqAneHcd8</guid>
+      <pubDate>Fri, 27 Feb 2026 23:47:21 +0000</pubDate>
     </item>
   </channel>
 </rss>
