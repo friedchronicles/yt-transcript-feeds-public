@@ -8,26 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 17:21:22 +0000</lastBuildDate>
-    <item>
-      <title>Elon Musk is Building "Optimus Academy"</title>
-      <link>https://www.youtube.com/watch?v=PCzJYol9vk0</link>
-      <description>Full episode: https://www.youtube.com/watch?v=BYXbuik3dgA
-Me on twitter: https://x.com/dwarkesh_sp
-
-In the full episode, John and I got to do a real deep-dive with Elon. We discuss the economics of orbital data centers, the difficulties of scaling power on Earth, what it would take to manufacture humanoids at high-volume in America, xAI’s business and alignment plans, DOGE, and much more.</description>
-      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=PCzJYol9vk0">https://www.youtube.com/watch?v=PCzJYol9vk0</a></p>
-<h2>Transcript</h2>
-<p>Um and and a bunch of the things that we&#x27;ve done for the car are applicable to the robot. It&#x27;s very much the same uh AI. Um you&#x27;ve got, you know, many more degrees of freedom for a robot than you do for a car. Um but really if you just think of it for like as as like a bitstream, um AI is really mostly uh compression and correlation of of two streams. You&#x27;re you know, so for video you&#x27;ve got to do a tremendous amount of compression um and and uh and you got to do the compression just right. You&#x27;ve got to compress the like ignore the the things that don&#x27;t matter and and like</p>
-<p>you don&#x27;t care about the details of the leaves and the tree on the side of the road, but you care a lot about the um the road signs and the the traffic lights and the pedestrians and and even whether you know somebody another another car is is looking at you or not looking at you like these some of the some of these details matter a lot. So, but it is essentially it&#x27;s got to turn that the car has got to turn that one and a half gigabytes a second ultimately into 2 kilobytes a second of control outputs. Um, so many stages of compression. Um, and you got to get all those stages right and then correlate</p>
-<p>those to the correct control outputs. The robot has to do essentially the same thing. And you think about what what humans this is what happens with humans. We we&#x27;re really are photons in controls out. So that that is the vast majority of your your life has been vision photons in and then motor controls out. &gt;&gt; Naively it seems like between humanoid robots and cars the the fundamental actuators in a car are like how you turn and how you accelerate etc. Where in a robot especially with maneuverable arms there&#x27;s dozens and dozens of these</p>
-<p>degrees of freedom. And then especially with Tesla, you had this advantage of like you had millions and millions of hours of human demo data collected from just the car being out there where like you can&#x27;t equivalently just deploy optimuses that don&#x27;t work and then get the data that way. So between the increased degrees of freedom and the far sparser data &gt;&gt; yes &gt;&gt; um &gt;&gt; how will you how will you use the sort of Tesla engine of um intelligence on to to train the optimist mind? Now you&#x27;re you&#x27;re you&#x27;re actually you&#x27;re highlighting an important limitation and</p>
-<p>difference between cars. It&#x27;s like we we do have but we&#x27;ll soon have like 10 million cars on the road. Um and so uh that&#x27;s it&#x27;s it&#x27;s hard to duplicate that like massive training fly flywheel. Um for for the robot um what we&#x27;re going to need to do is build a lot of robots and put them in kind of like an Optimus Academy so they can do selfplay in reality. Um, so we&#x27;re we&#x27;re actually we&#x27;re actually bullying that out. So we can have at least 10,000 Optimus robots, maybe 20 or 30,000 that</p>
-<p>can do that that are doing selfplay and and and testing different tasks. And then uh the the Tesla um has quite a good uh reality generator uh like a physics accurate reality generator that we we made made this for the cars. We&#x27;ll do the same thing for the robots and um actually have done that for the robots. Um so uh so you have you know a few tens of thousands of humanoid robots uh doing different tasks and then you&#x27;ve got you can do millions of simulated robots in</p>
-<p>the simulated world and you use the uh the tens of thousands of of robots in the real world to close the simulation to reality gap. If you enjoyed this clip you can watch the full episode here and subscribe for more clips. Thanks.</p>]]></content:encoded>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=PCzJYol9vk0</guid>
-      <pubDate>Tue, 10 Feb 2026 17:15:04 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 28 Feb 2026 17:45:23 +0000</lastBuildDate>
     <item>
       <title>Companies With Humans in the Loop Will Lose – Elon Musk</title>
       <link>https://www.youtube.com/watch?v=FwLA4AcLIwM</link>
@@ -238,6 +219,17 @@ Dario Amodei thinks we are just a few years away from “a country of geniuses i
       <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
       <guid isPermaLink="false">https://www.youtube.com/watch?v=L3XqAneHcd8</guid>
       <pubDate>Fri, 27 Feb 2026 23:47:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Regulators are no Match for Markets – Dario Amodei</title>
+      <link>https://www.youtube.com/watch?v=hITFYkUEjq0</link>
+      <description>Full episode: https://youtu.be/n1E9IZfvGMA
+Me on twitter: https://x.com/dwarkesh_sp
+
+Dario Amodei thinks we are just a few years away from “a country of geniuses in a data center”. In this episode, we discuss what to make of the scaling hypothesis in the current RL regime, how AI will diffuse throughout the economy, whether Anthropic is underinvesting in compute given their timelines, how frontier labs will ever make money, whether regulation will destroy the boons of this technology, US-China competition, and much more.</description>
+      <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=hITFYkUEjq0</guid>
+      <pubDate>Sat, 28 Feb 2026 17:30:09 +0000</pubDate>
     </item>
   </channel>
 </rss>
