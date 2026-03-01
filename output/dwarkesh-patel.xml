@@ -8,25 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 22:50:12 +0000</lastBuildDate>
-    <item>
-      <title>Companies With Humans in the Loop Will Lose – Elon Musk</title>
-      <link>https://www.youtube.com/watch?v=FwLA4AcLIwM</link>
-      <description>Full episode: https://www.youtube.com/watch?v=BYXbuik3dgA
-Me on twitter: https://x.com/dwarkesh_sp
-
-In the full episode, John and I got to do a real deep-dive with Elon. We discuss the economics of orbital data centers, the difficulties of scaling power on Earth, what it would take to manufacture humanoids at high-volume in America, xAI’s business and alignment plans, DOGE, and much more.</description>
-      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=FwLA4AcLIwM">https://www.youtube.com/watch?v=FwLA4AcLIwM</a></p>
-<h2>Transcript</h2>
-<p>So you&#x27;re expecting fully digital corporations rather than like SpaceX becomes part AI and I &gt;&gt; I think there&#x27;ll be digital corporations, but it looks some some of this is going to sound kind of doomerish, okay? But it I&#x27;m just I&#x27;m just saying what I think will happen. It&#x27;s not it&#x27;s not meant to be dumerish or anything else. Just just like this is what I think will happen. um is is that is that pure AI corporations that are purely AI and</p>
-<p>robotics uh will uh vastly outperform any corporations that have people in the loop. Um so you can you can think of say like like like computer used to be a a job that humans had that you you would go and get a job as a computer where you would do calculations. Um and they&#x27;d have like entire skyscrapers full of humans like you know 20 30 floors of of humans just doing calculations. Um now that entire uh skyscraper of humans doing calculations</p>
-<p>um can be replaced by a laptop with a spreadsheet. That spreadsheet can do um vastly more calculations than an entire building full of human computers. Um, so you can then think about, okay, well, what if only some of the cells in your some of the cells in your spreadsheet were uh calculated by humans? Actually, that that that would be much worse than if all of the cells in your spreadsheet were calculated by the computer. And so really what will happen is uh the pure AI, pure robotics</p>
-<p>um corporations or collectives will far outperform any corporations that have humans in the loop &gt;&gt; and this will happen very quickly. &gt;&gt; Speaking of closing the loop, sorry, Optimus. Um uh you I mean as far as like manufacturing targets and so forth go you your companies have sort of been like carrying American manufacturing of hard tech on their back but in the fields that you are um you know Tesla&#x27;s been dominant in you&#x27;re and now you want to</p>
-<p>go into humanoids in China there&#x27;s entire dozens and dozens of companies that are doing this kind of manufacturing cheaply and at scale uh and are incredibly competitive. So give us sort of like advice or a plan of how America can build the humanoid armies or you know the EVs etc at scale and as cheaply as as China is on track to. &gt;&gt; Well there there really only three hard things for human robots. Um the the real world intelligence</p>
-<p>um the the hand and scale manufacturing. Yeah. &gt;&gt; Um, so, uh, I haven&#x27;t seen any even demo robots that have a a a great hand like with all the degrees of freedom of a human hand, but Optimus will have that. &gt;&gt; If you enjoyed this clip, you can watch the full episode here and subscribe for more clips. Thanks.</p>]]></content:encoded>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=FwLA4AcLIwM</guid>
-      <pubDate>Wed, 11 Feb 2026 17:57:36 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 01 Mar 2026 23:25:04 +0000</lastBuildDate>
     <item>
       <title>Why SpaceX abandoned carbon fiber – Elon Musk</title>
       <link>https://www.youtube.com/watch?v=QEvv_MK-blo</link>
@@ -230,6 +212,17 @@ Dario Amodei thinks we are just a few years away from “a country of geniuses i
       <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
       <guid isPermaLink="false">https://www.youtube.com/watch?v=hITFYkUEjq0</guid>
       <pubDate>Sat, 28 Feb 2026 17:30:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>What if the US &amp; China Both Get AGI Simultaneously? – Dario Amodei</title>
+      <link>https://www.youtube.com/watch?v=lRhiHR_UXNk</link>
+      <description>Full episode: https://youtu.be/n1E9IZfvGMA
+Me on twitter: https://x.com/dwarkesh_sp
+
+Dario Amodei thinks we are just a few years away from “a country of geniuses in a data center”. In this episode, we discuss what to make of the scaling hypothesis in the current RL regime, how AI will diffuse throughout the economy, whether Anthropic is underinvesting in compute given their timelines, how frontier labs will ever make money, whether regulation will destroy the boons of this technology, US-China competition, and much more.</description>
+      <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=lRhiHR_UXNk</guid>
+      <pubDate>Sun, 01 Mar 2026 23:03:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
