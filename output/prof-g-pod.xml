@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 18:04:20 +0000</lastBuildDate>
-    <item>
-      <title>LIVE - State of the Union Postgame Analysis (with @ponderingpolitics)</title>
-      <link>https://www.youtube.com/watch?v=NTQT9-gINZE</link>
-      <description>Did you miss Trump's State of the Union speech? Or — did you see it, and need a place to vent? Join us LIVE, as Jessica Tarlov and Jessiah Eberlin of @ponderingpolitics discuss, analyze, and pick apart the speech's notable moments.</description>
-      <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=NTQT9-gINZE</guid>
-      <pubDate>Wed, 25 Feb 2026 04:03:13 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 02 Mar 2026 19:11:43 +0000</lastBuildDate>
     <item>
       <title>The Democrats Need to Start Lying</title>
       <link>https://www.youtube.com/shorts/8Q1iLnv42fw</link>
@@ -164,6 +156,14 @@ Spotify: https://open.spotify.com/show/2Kh9t2fiR7kE601GH36ajN?si=58afb98f60264f5
       <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
       <guid isPermaLink="false">https://www.youtube.com/shorts/2NRjDKNWaxc</guid>
       <pubDate>Sun, 01 Mar 2026 18:34:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>“The Trump administration is in retreat”</title>
+      <link>https://www.youtube.com/shorts/vnCZUfIwgc0</link>
+      <description>Donald Trump addressed the nation with his rationale for bombing Iran, but Jessica Tarlov isn’t buying it — on Raging Moderates.</description>
+      <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
+      <guid isPermaLink="false">https://www.youtube.com/shorts/vnCZUfIwgc0</guid>
+      <pubDate>Mon, 02 Mar 2026 17:58:30 +0000</pubDate>
     </item>
   </channel>
 </rss>
