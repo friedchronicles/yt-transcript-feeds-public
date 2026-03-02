@@ -8,40 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 22:27:15 +0000</lastBuildDate>
-    <item>
-      <title>No-code: Sell and get paid online without a website</title>
-      <link>https://www.youtube.com/watch?v=igYkam7PJ1s</link>
-      <description>Learn how to start getting paid online with no-code and low-code tools. This video will walk you through setting up a Stripe Payment Link to sell your products, even if you don’t have a website. We'll also discuss how to configure a buy button to match your brand and how to configure your checkout experience to offer the payment methods your customers prefer. Get started with Stripe today to accept payments online, no coding required.
-
-Chapters:
- Introducing Stripe Payment Links
- Creating a payment link
- Sharing your payment link
- Adding a buy button to your website
- Configuring your checkout experience
-
-Resources:
-https://docs.stripe.com/payment-links
-https://docs.stripe.com/no-code/get-started#sell-online 
-
-Get started with Stripe: https://stripe.com/register</description>
-      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=igYkam7PJ1s">https://www.youtube.com/watch?v=igYkam7PJ1s</a></p>
-<h2>Introducing Stripe Payment Links</h2>
-<p>Hello, this is a walkthrough of Stripe payment links. A simple way to start accepting online payments in minutes without writing code. Choose payment links if you want to sell online without a website or accept payments in person via QR code. In this video, we&#x27;ll cover how to create a payment link, how to share it with customers or embed it with a buy button on your website, and how to configure your checkout experience with multiple payment methods.</p>
-<h2>Creating a payment link</h2>
-<p>To get started, log into your Stripe dashboard. From the dashboard sidebar, click payments, then select payment links. Then on the payment links page, click new to get started. You can choose between selling products or subscriptions at a fixed price or allow customers to choose what they pay. For this example, let&#x27;s sell a product at a fixed price. Select products or subscriptions. You can add an existing product from your catalog or create a new one. To create a new product, click plus add new product. Enter the product</p>
-<p>details, including any images and descriptions, and set your price. You can offer one-time purchases or recurring subscriptions. For subscriptions, you can set billing intervals like monthly or yearly and offer free trials. You can also automatically calculate and collect the right amount of tax with Stripe Tax. Once you&#x27;ve configured your product, click create link to generate your payment link. After creating your</p>
-<h2>Sharing your payment link</h2>
-<p>payment link, you can share it multiple ways. Copy the link to share via email, messaging apps, text to pay, or social media. You can also generate a QR code that customers can scan with their phone. To use your own domain, go to business settings in the dashboard and add a custom domain for your payment links.</p>
-<h2>Adding a buy button to your website</h2>
-<p>If you have a website, you can embed a buy button or card widget on your site using your payment links. After creating your link, click buy button to customize its design and generate the code to paste into your site. When customers click the button, they&#x27;ll see your Stripe hosted checkout page. Payment links automatically support over</p>
-<h2>Configuring your checkout experience</h2>
-<p>75 payment methods, helping you convert more customers globally. Payment links also support Link, a wallet built by Stripe. Link allows returning customers to pay with a single click using their stored payment information. The payment link uses AI models to dynamically surface the most relevant payment methods based on many on session signals such as popularity among other customers. For example, customers in Germany will see options like SEPA debit while customers in South Korea might see options like Samsung Pay. You can</p>
-<p>configure payment methods from the dashboard. That&#x27;s how you can use Stripe payment links to sell online without writing code. Create an account or log in to get started.</p>]]></content:encoded>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=igYkam7PJ1s</guid>
-      <pubDate>Wed, 10 Dec 2025 18:19:30 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 02 Mar 2026 22:55:20 +0000</lastBuildDate>
     <item>
       <title>Billing 101: Launch subscriptions and invoices</title>
       <link>https://www.youtube.com/watch?v=C0JucAziA2o</link>
@@ -711,6 +678,13 @@ Key moments
       <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
       <guid isPermaLink="false">https://www.youtube.com/shorts/t_OgYDljhzE</guid>
       <pubDate>Thu, 26 Feb 2026 21:20:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>The long-term advantage of TSMC</title>
+      <link>https://www.youtube.com/shorts/G7UkVXWSDkk</link>
+      <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
+      <guid isPermaLink="false">https://www.youtube.com/shorts/G7UkVXWSDkk</guid>
+      <pubDate>Mon, 02 Mar 2026 22:24:19 +0000</pubDate>
     </item>
   </channel>
 </rss>
