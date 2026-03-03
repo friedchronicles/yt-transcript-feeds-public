@@ -228,15 +228,39 @@ def video_matches_channel_filters(channel: dict, video: dict) -> bool:
 _transcript_api = YouTubeTranscriptApi()
 
 
-def fetch_transcript(video_id: str) -> list[dict] | None:
-    """Fetch transcript for a video. Returns list of segment dicts or None."""
+def _is_transient_transcript_failure(exc: Exception) -> bool:
+    """Return True when the failure looks like a temporary YouTube/IP block."""
+    text = str(exc).lower()
+    markers = (
+        "blocking requests from your ip",
+        "ip has been blocked",
+        "requestblocked",
+        "ipblocked",
+        "too many requests",
+        "sign in to confirm you're not a bot",
+    )
+    return any(m in text for m in markers)
+
+
+def fetch_transcript(video_id: str) -> tuple[list[dict] | None, str]:
+    """Fetch transcript for a video.
+
+    Returns (segments, reason), where reason is one of:
+    - "ok": transcript fetched
+    - "blocked": transient IP/bot-block style error
+    - "unavailable": no transcript or other non-transient error
+    """
     try:
         result = _transcript_api.fetch(video_id, languages=["en"])
         # Convert FetchedTranscriptSnippet objects to plain dicts
-        return [{"text": s.text, "start": s.start, "duration": s.duration} for s in result]
+        return (
+            [{"text": s.text, "start": s.start, "duration": s.duration} for s in result],
+            "ok",
+        )
     except Exception as e:
-        log.warning("No transcript for %s: %s", video_id, e)
-        return None
+        reason = "blocked" if _is_transient_transcript_failure(e) else "unavailable"
+        log.warning("No transcript for %s [%s]: %s", video_id, reason, e)
+        return None, reason
 
 
 def fetch_video_chapters(video_link: str) -> list[dict]:
@@ -424,12 +448,17 @@ def process_channel(channel: dict, seen: dict, cleanup_state: dict, settings: di
 
         # New video — fetch transcript
         log.info("Fetching transcript for: %s (%s)", video["title"], vid)
-        segments = fetch_transcript(vid)
+        segments, transcript_reason = fetch_transcript(vid)
 
         if segments is None:
+            if transcript_reason == "blocked":
+                log.warning("Skipping %s due to transient block; will retry in next run", vid)
+                # Do not mark as seen and do not cache fallback content.
+                # This ensures future runs retry instead of persisting a false "no transcript".
+                continue
+
             log.info("Skipping %s (no transcript available)", vid)
             seen[channel_id].append(vid)
-            # Cache a no-transcript entry
             entry = {
                 **video,
                 "transcript_html": "<p><em>No transcript available for this video.</em></p>",
@@ -535,9 +564,12 @@ def process_standalone_videos(
         chapters = meta.pop("chapters", [])
 
         log.info("Fetching transcript for: %s (%s)", meta["title"], vid)
-        segments = fetch_transcript(vid)
+        segments, transcript_reason = fetch_transcript(vid)
 
         if segments is None:
+            if transcript_reason == "blocked":
+                log.warning("Skipping standalone %s due to transient block; will retry in next run", vid)
+                continue
             log.info("Skipping %s (no transcript available)", vid)
             entry = {
                 **meta,
@@ -589,8 +621,11 @@ def rebuild_cached_transcripts(data_dir: Path, delay_sec: float = 1.0):
             link = entry.get("link")
             if not video_id or not link:
                 continue
-            segments = fetch_transcript(video_id)
+            segments, transcript_reason = fetch_transcript(video_id)
             if not segments:
+                if transcript_reason == "blocked":
+                    log.warning("Skipping rebuild for %s due to transient block", video_id)
+                    continue
                 entry["transcript_html"] = "<p><em>No transcript available for this video.</em></p>"
                 entry["chapters_count"] = 0
             else:
