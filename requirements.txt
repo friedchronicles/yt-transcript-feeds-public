@@ -1,4 +1,4 @@
-youtube-transcript-api
+youtube-transcript-api>=1.2.0
 feedgen
 feedparser
 google-genai

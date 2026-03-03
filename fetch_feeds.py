@@ -17,6 +17,7 @@ import feedparser
 from feedgen.feed import FeedGenerator
 from google import genai
 from youtube_transcript_api import YouTubeTranscriptApi
+from youtube_transcript_api.proxies import GenericProxyConfig, WebshareProxyConfig
 
 # Setup paths relative to this script
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -225,7 +226,49 @@ def video_matches_channel_filters(channel: dict, video: dict) -> bool:
     return True
 
 
-_transcript_api = YouTubeTranscriptApi()
+def _build_transcript_api() -> YouTubeTranscriptApi:
+    """Create transcript client with optional proxy configuration via env vars.
+
+    Supported environment variables:
+    - YTA_WEBSHARE_USERNAME / YTA_WEBSHARE_PASSWORD / YTA_WEBSHARE_LOCATIONS
+    - YTA_PROXY_HTTP_URL / YTA_PROXY_HTTPS_URL
+    """
+    ws_user = os.environ.get("YTA_WEBSHARE_USERNAME", "").strip()
+    ws_pass = os.environ.get("YTA_WEBSHARE_PASSWORD", "").strip()
+    ws_locations = [
+        x.strip()
+        for x in os.environ.get("YTA_WEBSHARE_LOCATIONS", "").split(",")
+        if x.strip()
+    ]
+
+    if ws_user and ws_pass:
+        log.info(
+            "YouTube transcript API using Webshare proxy%s",
+            f" (locations={','.join(ws_locations)})" if ws_locations else "",
+        )
+        return YouTubeTranscriptApi(
+            proxy_config=WebshareProxyConfig(
+                proxy_username=ws_user,
+                proxy_password=ws_pass,
+                filter_ip_locations=ws_locations or None,
+            )
+        )
+
+    http_url = os.environ.get("YTA_PROXY_HTTP_URL", "").strip() or None
+    https_url = os.environ.get("YTA_PROXY_HTTPS_URL", "").strip() or None
+    if http_url or https_url:
+        log.info("YouTube transcript API using generic proxy config")
+        return YouTubeTranscriptApi(
+            proxy_config=GenericProxyConfig(
+                http_url=http_url,
+                https_url=https_url,
+            )
+        )
+
+    return YouTubeTranscriptApi()
+
+
+_transcript_api = _build_transcript_api()
 
 
 def _is_transient_transcript_failure(exc: Exception) -> bool:
