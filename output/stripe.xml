@@ -8,48 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 23:51:43 +0000</lastBuildDate>
-    <item>
-      <title>Billing 101: Launch subscriptions and invoices</title>
-      <link>https://www.youtube.com/watch?v=C0JucAziA2o</link>
-      <description>Learn how to get started with Stripe Billing, a solution that helps you launch new revenue models quickly. This video will walk you through setting up subscriptions, launching new pricing models like usage-based billing, creating and sending professional invoices, and using Stripe's recovery tools to try to recover revenue from failed payments. Get started with Stripe today to offer subscriptions, bill on usage, and generate customizable invoices.
-
-Chapters:
- Introducing Stripe Billing
- Create and manage subscriptions
- Setting up &amp; managing usage-based billing
- Create, customize, and send invoices
- Managing revenue recovery tools
- Getting started with Stripe Billing
-
-Resources:
-https://docs.stripe.com/billing 
-https://docs.stripe.com/subscriptions 
-https://docs.stripe.com/invoicing 
-https://docs.stripe.com/billing/subscriptions/usage-based 
-
-Get started with Stripe: https://stripe.com/register</description>
-      <content:encoded><![CDATA[<p><strong>YouTube:</strong> <a href="https://www.youtube.com/watch?v=C0JucAziA2o">https://www.youtube.com/watch?v=C0JucAziA2o</a></p>
-<h2>Introducing Stripe Billing</h2>
-<p>Hello, this is a walkthrough of Stripe billing, a solution that helps you launch any revenue model quickly. Use billing if you offer subscriptions, bill on usage, or need to generate invoices. In this video, we&#x27;ll cover how to set up subscriptions and usage based pricing, how to create and send professional invoices, and how to try to recover revenue from failed payments using Stripe Billings recovery tools. This video is forformational purposes only and shows one example of a configuration. Your configuration might require additional steps depending on</p>
-<p>your region and local regulations. Let&#x27;s get started. Stripe billing lets you</p>
-<h2>Create and manage subscriptions</h2>
-<p>create and manage subscriptions for your products or services. Billing supports over 15 pricing models from simple flat rate or per seed subscriptions build at regular intervals to more complex hybrid and metered pricing. To create a subscription, you&#x27;ll need two key components: products and prices. A product is what you&#x27;re selling, like a basic or premium plan. A price defines how much your product costs, the billing interval, like monthly or yearly, and the currency. A single product can have multiple prices for different billing</p>
-<p>intervals or currencies. After saving a product and price, create the subscription in the dashboard or by calling the subscriptions API. Once you&#x27;ve set up your subscriptions, [music] you can use tools like trials and coupons to help drive growth. For example, you can offer free trials to let customers try before they buy. You can choose whether to require a payment method at the start of the trial and if so, whether the trial automatically converts to a paid subscription or cancels at the end. You can offer</p>
-<h2>Setting up &amp; managing usage-based billing</h2>
-<p>pricing that reflects your customers actual usage of your product with usagebased billing, a flexible alternative to subscription pricing models. With usage based billing, you charge customers based on their consumption of your product or service. This is ideal for services like AI models and applications, cloud storage, or infrastructure services. To implement usage based billing, begin by defining a product with a metered price. For example, you might charge a certain amount per gigabyte AI token or API call.</p>
-<p>During each billing period, your system reports the customer&#x27;s usage to Stripe through the Stripe API with meter events, which is capable of processing up to 200,000 events per second. Then, Stripe automatically calculates the amount due based on the reported usage and your pricing model. Customers pay only for what they use. You bill for the exact value delivered.</p>
-<h2>Create, customize, and send invoices</h2>
-<p>Stripe invoicing lets you create, customize, and send invoices. Invoices can be automatically generated for subscriptions, or you can create one-off invoices for individual purchases at an additional cost. To create an invoice, go to the invoices section in your dashboard and select create invoice. You can add line items, apply discounts, and include taxes. Stripe also lets you customize the appearance of your invoices with your logo and brand colors. When you&#x27;re ready, you can send the invoice via email or share a link that lets customers pay online. Stripe</p>
-<p>helps you get paid faster by tracking invoice status, retrying failed payments, and sending payment reminders. Revenue recovery tools can help reduce</p>
-<h2>Managing revenue recovery tools</h2>
-<p>and recover failed recurring payments so your business can collect more revenue. With billing&#x27;s revenue recovery features, businesses on Stripe recover $12 on average for every $1 spent on billing. Smart retries uses AI to retry failed payments at times when they&#x27;re most likely to succeed. You can set up automated email reminders to notify customers when payments fail, when their invoice is unpaid, or when their trial is ending or renewal is approaching. We&#x27;ll even automatically update your customers saved card details when their issuing bank replaces a physical card. This helps ensure uninterrupted</p>
-<p>payments.</p>
-<h2>Getting started with Stripe Billing</h2>
-<p>Stripe billing can be managed through the dashboard for many common setups. For more customized integrations like automating subscriptions or reporting usage for metered billing, you&#x27;ll use the Stripe API. Stripe docs have what you need to integrate billing, including comprehensive documentation, client libraries in various languages and quick start guides. That&#x27;s an overview of Stripe billing, a powerful system for managing subscriptions, usage based plans, invoices, and revenue recovery. Create an account or log in to get started.</p>]]></content:encoded>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=C0JucAziA2o</guid>
-      <pubDate>Wed, 10 Dec 2025 18:19:49 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 03 Mar 2026 02:11:29 +0000</lastBuildDate>
     <item>
       <title>Companies applying emerging technologies to lesser known frontiers</title>
       <link>https://www.youtube.com/watch?v=HnzbIL-huR4</link>
@@ -685,6 +644,16 @@ Key moments
       <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
       <guid isPermaLink="false">https://www.youtube.com/shorts/G7UkVXWSDkk</guid>
       <pubDate>Mon, 02 Mar 2026 22:24:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bringing the art of movies back to local communities</title>
+      <link>https://www.youtube.com/watch?v=Ptitq6IRYzI</link>
+      <description>INDY Cinema Group is a global cinema operating platform, helping modern cinemas unlock their full potential with new tech. From branded digital experiences and in-seat QR code ordering to intuitive point of sale, in-theater server handhelds, membership programs, and real-time analytics, INDY brings everything together in one platform.
+
+Learn more about INDY Cinema Group: https://stripe.com/customers/indy-cinema-group</description>
+      <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=Ptitq6IRYzI</guid>
+      <pubDate>Tue, 03 Mar 2026 00:04:40 +0000</pubDate>
     </item>
   </channel>
 </rss>
