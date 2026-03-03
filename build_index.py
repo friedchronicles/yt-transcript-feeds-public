@@ -18,6 +18,12 @@ def main():
         name = ch["name"]
         url = f"{base}/{slug}.xml" if base else f"./{slug}.xml"
         rows.append(f"<li><a href=\"{url}\">{name}</a></li>")
+    standalone = config.get("standalone_videos")
+    if standalone and standalone.get("videos"):
+        slug = standalone["slug"]
+        name = standalone["name"]
+        url = f"{base}/{slug}.xml" if base else f"./{slug}.xml"
+        rows.append(f"<li><a href=\"{url}\">{name}</a></li>")
 
     html = f"""<!doctype html>
 <html lang="en">

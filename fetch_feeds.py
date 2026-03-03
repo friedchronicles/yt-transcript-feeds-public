@@ -139,6 +139,57 @@ def maybe_run_cleanup(entry: dict, settings: dict) -> str:
         return transcript_html
 
 
+def extract_video_id(url: str) -> str | None:
+    """Extract a YouTube video ID from various URL formats or a bare ID."""
+    url = url.strip()
+    # Already a bare video ID (11 chars, alphanumeric + _-)
+    if re.fullmatch(r"[\w-]{11}", url):
+        return url
+    # youtu.be/VIDEO_ID
+    m = re.search(r"youtu\.be/([\w-]{11})", url)
+    if m:
+        return m.group(1)
+    # youtube.com/watch?v=VIDEO_ID
+    m = re.search(r"[?&]v=([\w-]{11})", url)
+    if m:
+        return m.group(1)
+    return None
+
+
+def fetch_video_metadata(video_id: str) -> dict | None:
+    """Fetch title, upload date, and description for a single video via yt-dlp."""
+    link = f"https://www.youtube.com/watch?v={video_id}"
+    try:
+        raw = subprocess.check_output(
+            ["yt-dlp", "--dump-single-json", "--no-warnings", link],
+            text=True,
+        )
+        data = json.loads(raw)
+        upload = data.get("upload_date", "")  # YYYYMMDD
+        published = ""
+        if upload and len(upload) == 8:
+            published = f"{upload[:4]}-{upload[4:6]}-{upload[6:]}T00:00:00+00:00"
+        chapters = []
+        for ch in data.get("chapters") or []:
+            title = (ch.get("title") or "").strip()
+            start = float(ch.get("start_time", 0.0))
+            end = ch.get("end_time")
+            end = float(end) if end is not None else None
+            if title:
+                chapters.append({"title": title, "start_time": start, "end_time": end})
+        return {
+            "video_id": video_id,
+            "title": data.get("title") or "Untitled",
+            "link": link,
+            "published": published,
+            "summary": data.get("description", ""),
+            "chapters": chapters,
+        }
+    except Exception as e:
+        log.warning("yt-dlp metadata fetch failed for %s: %s", video_id, e)
+        return None
+
+
 def fetch_channel_feed(channel_id: str) -> list[dict]:
     """Fetch the YouTube Atom feed for a channel and return video entries."""
     url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
@@ -432,6 +483,97 @@ def process_channel(channel: dict, seen: dict, cleanup_state: dict, settings: di
     return seen, cleanup_state
 
 
+def process_standalone_videos(
+    standalone_cfg: dict,
+    seen: dict,
+    cleanup_state: dict,
+    settings: dict,
+    output_dir: Path,
+    base_url: str,
+) -> tuple[dict, dict]:
+    """Process a list of one-off video URLs into their own RSS feed."""
+    name = standalone_cfg.get("name", "One-off Videos")
+    slug = standalone_cfg.get("slug", "one-off")
+    urls = standalone_cfg.get("videos", [])
+    if not urls:
+        return seen, cleanup_state
+
+    seen_key = "__standalone__"
+    if seen_key not in seen:
+        seen[seen_key] = []
+
+    log.info("Processing %d standalone video(s) for '%s'", len(urls), name)
+
+    videos_with_transcripts = []
+    new_count = 0
+
+    for url in urls:
+        vid = extract_video_id(url)
+        if not vid:
+            log.warning("Could not extract video ID from: %s", url)
+            continue
+
+        if vid in seen[seen_key]:
+            cache_path = output_dir.parent / "data" / f"transcript_{vid}.json"
+            if cache_path.exists():
+                with open(cache_path) as f:
+                    videos_with_transcripts.append(json.load(f))
+            continue
+
+        log.info("Fetching metadata for standalone video: %s", vid)
+        meta = fetch_video_metadata(vid)
+        if meta is None:
+            meta = {
+                "video_id": vid,
+                "title": "Untitled",
+                "link": f"https://www.youtube.com/watch?v={vid}",
+                "published": utc_now_iso(),
+                "summary": "",
+                "chapters": [],
+            }
+
+        chapters = meta.pop("chapters", [])
+
+        log.info("Fetching transcript for: %s (%s)", meta["title"], vid)
+        segments = fetch_transcript(vid)
+
+        if segments is None:
+            log.info("Skipping %s (no transcript available)", vid)
+            entry = {
+                **meta,
+                "transcript_html": "<p><em>No transcript available for this video.</em></p>",
+                "cleanup_applied": False,
+                "cleanup_reason": "no_transcript",
+            }
+        else:
+            transcript_html = format_transcript_html(segments, chapters)
+            transcript_html = with_episode_link(transcript_html, meta["link"])
+            entry = {**meta, "transcript_html": transcript_html, "chapters_count": len(chapters)}
+
+            if settings.get("enable_cleanup", False):
+                entry["transcript_html"] = maybe_run_cleanup(entry, settings)
+                entry["cleanup_applied"] = True
+                cleanup_state.setdefault("cleaned_video_ids", []).append(vid)
+                log.info("Cleanup applied to standalone: %s", vid)
+            else:
+                entry["cleanup_applied"] = False
+
+        cache_path = output_dir.parent / "data" / f"transcript_{vid}.json"
+        with open(cache_path, "w") as f:
+            json.dump(entry, f)
+        videos_with_transcripts.append(entry)
+        seen[seen_key].append(vid)
+        new_count += 1
+        time.sleep(1)
+
+    log.info("Processed %d new standalone video(s)", new_count)
+
+    if videos_with_transcripts:
+        generate_feed(name, slug, videos_with_transcripts, output_dir, base_url)
+
+    return seen, cleanup_state
+
+
 def rebuild_cached_transcripts(data_dir: Path, delay_sec: float = 1.0):
     """Rebuild existing cached transcript HTML with section headings."""
     files = sorted(data_dir.glob("transcript_*.json"))
@@ -498,6 +640,13 @@ def main():
             seen, cleanup_state = process_channel(channel, seen, cleanup_state, settings, output_dir, max_videos, base_url)
         except Exception:
             log.exception("Error processing channel %s", channel["name"])
+
+    standalone_cfg = config.get("standalone_videos")
+    if standalone_cfg and standalone_cfg.get("videos"):
+        try:
+            seen, cleanup_state = process_standalone_videos(standalone_cfg, seen, cleanup_state, settings, output_dir, base_url)
+        except Exception:
+            log.exception("Error processing standalone videos")
 
     save_seen_videos(data_dir, seen)
     save_cleanup_state(data_dir, cleanup_state)

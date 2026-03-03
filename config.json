@@ -34,6 +34,14 @@
       ]
     }
   ],
+  "standalone_videos": {
+    "name": "One-off Videos",
+    "slug": "one-off",
+    "videos": [
+      "https://youtu.be/ORyCS0r2Tpg",
+      "https://youtu.be/jIS2eB-rGv0"
+    ]
+  },
   "settings": {
     "output_dir": "output",
     "data_dir": "data",
