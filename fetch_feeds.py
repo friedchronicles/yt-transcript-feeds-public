@@ -505,9 +505,8 @@ def process_channel(channel: dict, seen: dict, cleanup_state: dict, settings: di
     # Trim to max_videos (keep most recent)
     videos_with_transcripts = videos_with_transcripts[:max_videos]
 
-    # Generate RSS feed
-    if videos_with_transcripts:
-        generate_feed(name, slug, videos_with_transcripts, output_dir, base_url)
+    # Generate RSS feed even when empty so new channels always have a stable URL.
+    generate_feed(name, slug, videos_with_transcripts, output_dir, base_url)
 
     return seen, cleanup_state
 

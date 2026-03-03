@@ -1,19 +1,9 @@
 {
   "channels": [
     {
-      "name": "Stripe (Ben Thompson)",
-      "slug": "stripe",
-      "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ"
-    },
-    {
       "name": "Cal Newport",
       "slug": "cal-newport",
       "channel_id": "UCIhJnsJ0IHlVNnYfp-gw_5Q"
-    },
-    {
-      "name": "Dwarkesh Patel",
-      "slug": "dwarkesh-patel",
-      "channel_id": "UCZa18YV7qayTh-MRIrBhDpA"
     },
     {
       "name": "Prof G Pod (Scott Galloway)",
@@ -21,9 +11,14 @@
       "channel_id": "UCcvDWzvxz6Kn1iPQHMl2teA"
     },
     {
-      "name": "Latent Space",
-      "slug": "latent-space",
-      "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ"
+      "name": "Predictive History",
+      "slug": "predictive-history",
+      "channel_id": "UC11aHtNnc5bEPLI4jf6mnYg"
+    },
+    {
+      "name": "Glenn Diesen",
+      "slug": "glenn-diesen",
+      "channel_id": "UCZFCDIHTe9HGxtIuVDpBz7g"
     },
     {
       "name": "Oxide Computer Company",
