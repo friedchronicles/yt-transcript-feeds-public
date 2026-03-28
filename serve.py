@@ -21,8 +21,9 @@ def main():
     os.chdir(output_dir)
 
     handler = http.server.SimpleHTTPRequestHandler
-    server = http.server.HTTPServer(("127.0.0.1", port), handler)
-    print(f"Serving {output_dir} on http://localhost:{port}/")
+    host = os.environ.get("SERVE_HOST", "127.0.0.1")
+    server = http.server.HTTPServer((host, port), handler)
+    print(f"Serving {output_dir} on http://{host}:{port}/")
     try:
         server.serve_forever()
     except KeyboardInterrupt:

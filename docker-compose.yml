@@ -1,0 +1,24 @@
+services:
+  fetch:
+    build: .
+    command: sh -c "python fetch_feeds.py && python build_index.py"
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output
+      - ./logs:/app/logs
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - YTA_WEBSHARE_USERNAME=${YTA_WEBSHARE_USERNAME:-}
+      - YTA_WEBSHARE_PASSWORD=${YTA_WEBSHARE_PASSWORD:-}
+      - YTA_WEBSHARE_LOCATIONS=${YTA_WEBSHARE_LOCATIONS:-}
+      - YTA_PROXY_HTTP_URL=${YTA_PROXY_HTTP_URL:-}
+      - YTA_PROXY_HTTPS_URL=${YTA_PROXY_HTTPS_URL:-}
+
+  serve:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./output:/app/output
+    environment:
+      - SERVE_HOST=0.0.0.0
