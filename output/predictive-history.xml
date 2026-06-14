@@ -8,21 +8,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jun 2026 01:44:31 +0000</lastBuildDate>
-    <item>
-      <title>Dante Seminar Livestream</title>
-      <link>https://www.youtube.com/watch?v=biD5PHXk67A</link>
-      <description>We'll read Dante line by line.</description>
-      <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=biD5PHXk67A</guid>
-      <pubDate>Tue, 02 Jun 2026 11:59:27 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 14 Jun 2026 06:42:06 +0000</lastBuildDate>
     <item>
       <title>Predictive History直播</title>
-      <link>https://www.youtube.com/watch?v=pjmgtchLYMs</link>
+      <link>https://www.youtube.com/watch?v=5Bg9DfXqyfM</link>
       <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=pjmgtchLYMs</guid>
-      <pubDate>Tue, 02 Jun 2026 12:03:23 +0000</pubDate>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=5Bg9DfXqyfM</guid>
+      <pubDate>Sun, 14 Jun 2026 04:26:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dante Livestream #1  (Monday, June 15 morning)</title>
+      <link>https://www.youtube.com/watch?v=xUG-nSlD8H4</link>
+      <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=xUG-nSlD8H4</guid>
+      <pubDate>Sun, 14 Jun 2026 04:28:48 +0000</pubDate>
     </item>
   </channel>
 </rss>
