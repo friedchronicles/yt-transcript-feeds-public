@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Jun 2026 00:20:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 09:54:24 +0000</lastBuildDate>
     <item>
       <title>Predictive History直播</title>
       <link>https://www.youtube.com/watch?v=5Bg9DfXqyfM</link>
@@ -36,6 +36,13 @@
       <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
       <guid isPermaLink="false">https://www.youtube.com/watch?v=04ngQzYqgPw</guid>
       <pubDate>Tue, 16 Jun 2026 07:19:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dante Livestream #5 (Saturday, June 20 10AM)</title>
+      <link>https://www.youtube.com/watch?v=R526_WuG3mE</link>
+      <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=R526_WuG3mE</guid>
+      <pubDate>Thu, 18 Jun 2026 07:10:58 +0000</pubDate>
     </item>
   </channel>
 </rss>
