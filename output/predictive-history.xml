@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 00:14:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 08:23:26 +0000</lastBuildDate>
     <item>
       <title>Dante Livestream #5 (Saturday, June 20 10AM)</title>
       <link>https://www.youtube.com/watch?v=R526_WuG3mE</link>
@@ -38,6 +38,13 @@
       <pubDate>Mon, 22 Jun 2026 07:05:58 +0000</pubDate>
     </item>
     <item>
+      <title>Dante Livestream #9 (Wednesday, June 24 10AM)</title>
+      <link>https://www.youtube.com/watch?v=VIo-EBsYVUo</link>
+      <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=VIo-EBsYVUo</guid>
+      <pubDate>Tue, 23 Jun 2026 08:45:29 +0000</pubDate>
+    </item>
+    <item>
       <title>Dante Livestream #10 (Thursday, June 25 10AM)</title>
       <link>https://www.youtube.com/watch?v=O2f-XTdVeIo</link>
       <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
@@ -45,11 +52,11 @@
       <pubDate>Wed, 24 Jun 2026 07:09:06 +0000</pubDate>
     </item>
     <item>
-      <title>Dante Livestream #9 (Wednesday, June 24 10AM)</title>
-      <link>https://www.youtube.com/watch?v=VIo-EBsYVUo</link>
+      <title>Dante Livestream #11 (Friday, June 26 10AM)</title>
+      <link>https://www.youtube.com/watch?v=ynMurcuyLoY</link>
       <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=VIo-EBsYVUo</guid>
-      <pubDate>Tue, 23 Jun 2026 08:45:29 +0000</pubDate>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=ynMurcuyLoY</guid>
+      <pubDate>Thu, 25 Jun 2026 07:51:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
