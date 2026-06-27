@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 27 Jun 2026 00:08:16 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 04:34:55 +0000</lastBuildDate>
     <item>
       <title>Dante Livestream #5 (Saturday, June 20 10AM)</title>
       <link>https://www.youtube.com/watch?v=R526_WuG3mE</link>
@@ -484,18 +484,18 @@
       <pubDate>Wed, 24 Jun 2026 07:09:06 +0000</pubDate>
     </item>
     <item>
-      <title>Dante Livestream #12 Final (Saturday, June 27 10AM)</title>
-      <link>https://www.youtube.com/watch?v=TZHsSDiNoJ0</link>
-      <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=TZHsSDiNoJ0</guid>
-      <pubDate>Fri, 26 Jun 2026 07:07:39 +0000</pubDate>
-    </item>
-    <item>
       <title>Dante Livestream #11 (Friday, June 26 10AM)</title>
       <link>https://www.youtube.com/watch?v=ynMurcuyLoY</link>
       <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
       <guid isPermaLink="false">https://www.youtube.com/watch?v=ynMurcuyLoY</guid>
       <pubDate>Thu, 25 Jun 2026 07:51:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dante Livestream #12 Final (Saturday, June 27 10AM)</title>
+      <link>https://www.youtube.com/watch?v=TZHsSDiNoJ0</link>
+      <description><![CDATA[<p><em>No transcript available for this video.</em></p>]]></description>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=TZHsSDiNoJ0</guid>
+      <pubDate>Fri, 26 Jun 2026 07:07:39 +0000</pubDate>
     </item>
   </channel>
 </rss>
