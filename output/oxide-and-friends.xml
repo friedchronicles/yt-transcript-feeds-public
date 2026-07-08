@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 17:37:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 19:26:14 +0000</lastBuildDate>
     <item>
       <title>Oxide and Friends 5/11/2026 -- The Tale of Reverso</title>
       <link>https://www.youtube.com/watch?v=uuvADD4ISBg</link>
@@ -140,6 +140,17 @@ Notes: https://github.com/oxidecomputer/oxide-and-friends/blob/master/2026_05_11
 <p>Yeah, he wants to reserve judgment on that. Um awesome. All right, well, um thanks you two. Um and RFK, thank you so much for Reversao. Um and Adam, thanks for uh thanks for getting over your network aphasia to join us on this one. This This is a good one. Yeah. All right, awesome. Thanks, everyone. Take care. See you next time.</p>]]></content:encoded>
       <guid isPermaLink="false">https://www.youtube.com/watch?v=uuvADD4ISBg</guid>
       <pubDate>Fri, 15 May 2026 14:01:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Oxide and Friends 6/1/2026 -- This Old Repo: LLMs and the Restoration of BattleTris</title>
+      <link>https://www.youtube.com/watch?v=mfulfhTWTQA</link>
+      <description>Bryan and Adam discuss the process of restoring a software project--BattleTris--untouched and unbuilt in over 20 years! How did LLMs help restore code Bryan started in the mid-1990s and what does that teach us about developing and maintaining software in the future?
+
+BattleTris: https://github.com/bcantrill/BattleTris
+Notes: https://github.com/oxidecomputer/oxide-and-friends/blob/master/2026_06_01.md</description>
+      <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=mfulfhTWTQA</guid>
+      <pubDate>Mon, 08 Jun 2026 20:40:20 +0000</pubDate>
     </item>
   </channel>
 </rss>
