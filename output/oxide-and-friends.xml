@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2026 12:43:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 14:45:56 +0000</lastBuildDate>
     <item>
       <title>Oxide and Friends 5/4/2026 -- AI in Computer Science Education</title>
       <link>https://www.youtube.com/watch?v=iSOdBO9I6q8</link>
@@ -150,6 +150,16 @@ Notes: https://github.com/oxidecomputer/oxide-and-friends/blob/master/2026_05_11
 <p>Yeah, he wants to reserve judgment on that. Um awesome. All right, well, um thanks you two. Um and RFK, thank you so much for Reversao. Um and Adam, thanks for uh thanks for getting over your network aphasia to join us on this one. This This is a good one. Yeah. All right, awesome. Thanks, everyone. Take care. See you next time.</p>]]></content:encoded>
       <guid isPermaLink="false">https://www.youtube.com/watch?v=uuvADD4ISBg</guid>
       <pubDate>Fri, 15 May 2026 14:01:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Oxide and Friends 5/18/2026 -- Rooting for the Home Team with Paul Freedman and Bryan Carmel</title>
+      <link>https://www.youtube.com/watch?v=Iapkf76nHy8</link>
+      <description>Two years ago we introduced listeners to the Oakland Ballers, the startup returning baseball to the city of Oakland. Bryan and Adam were joined again by Paul Freedman and Bryan Carmel to discuss the Ballers first two--highly successful--seasons, and to announce some exciting new collaborations between the Ballers and Oxide!
+
+Notes: https://github.com/oxidecomputer/oxide-and-friends/blob/master/2026_05_18.md</description>
+      <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=Iapkf76nHy8</guid>
+      <pubDate>Tue, 26 May 2026 02:02:02 +0000</pubDate>
     </item>
     <item>
       <title>Oxide and Friends 6/1/2026 -- This Old Repo: LLMs and the Restoration of BattleTris</title>
