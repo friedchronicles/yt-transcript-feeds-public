@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2026 10:01:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 12:07:41 +0000</lastBuildDate>
     <item>
       <title>Did AI Just “Solve” Math? (Let’s Take a Closer Look)</title>
       <link>https://www.youtube.com/watch?v=fhZRWZ6J4k4</link>
@@ -620,6 +620,50 @@ Theme Music: Jay Kerstens</description>
       <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
       <guid isPermaLink="false">https://www.youtube.com/watch?v=j0OydBfnvEA</guid>
       <pubDate>Mon, 13 Jul 2026 10:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Optimization Paradox Explained</title>
+      <link>https://www.youtube.com/watch?v=r374bSsGlSM</link>
+      <description>Cal Newport talks with Brad Stulberg to explain the optimization paradox in Episode 414 of the Deep Questions podcast.
+
+More from Cal
+
+Download Cal’s FREE guide to cultivating a deeper life: calnewport.com/ideas
+Learn more about Cal’s books: calnewport.com/books
+Listen to Cal’s podcast: thedeeplife.com/listen
+
+Chapters
+
+() The Optimization Paradox
+() Interview with Brad Stulberg
+() Health optimization
+() Tail end development
+
+Resources Mentioned:
+
+Buy Cal’s latest book, “Slow Productivity” at www.calnewport.com/slow 
+Get a signed copy of Cal’s “Slow Productivity” at https://peoplesbooktakoma.com/event/cal-newport/ 
+Cal’s monthly book directory: bramses.notion.site/059db2641def4a88988b4d2cee4657ba?
+
+Sponsors:
+
+https://wealthfront.com/deep
+https://calderalab.com/deep
+https://cozyearth.com (Use code “DEEP”)
+
+Cal Newport is not a Wealthfront client.
+
+Wealthfront’s high-yield cash account: ⁠https://www.wealthfront.com/deep⁠. This experience may not be representative of other Wealthfront clients, and there is no guarantee of future performance or success. Experiences will vary. Cal Newport receives cash compensation from Wealthfront Brokerage for paid endorsement in his podcast, creating a conflict of interest. The Cash Account, which is not a deposit account, is offered by Wealthfront Brokerage LLC, member FINRA/SIPC.  Wealthfront Brokerage is not a bank. The base APY is 3.30% on cash deposits as of January 30, 2026, is representative, subject to change, and requires no minimum. If eligible for the overall boosted rate of 4.05% offered in connection with this promo, your boosted rate is also subject to change if the base rate decreases during the 3 month promo period. Additional terms and conditions apply, which can be found on ⁠wealthfront.com/deep⁠.  Funds in the Cash Account are swept to program banks, where it earns the variable APY. Investment advisory services are provided by Wealthfront Advisers LLC, an SEC-registered investment adviser. Securities investments: not bank deposits, bank-guaranteed or FDIC-insured, and may lose value.
+
+
+Credits:
+
+Podcast Production: Jesse Miller
+Newsletter/Research: Nate Mechler
+Theme Music: Jay Kerstens</description>
+      <content:encoded><![CDATA[<p><em>No transcript available for this video.</em></p>]]></content:encoded>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=r374bSsGlSM</guid>
+      <pubDate>Mon, 20 Jul 2026 10:00:08 +0000</pubDate>
     </item>
   </channel>
 </rss>
